@@ -1,0 +1,251 @@
+{
+  "release_id": "evidence-source-extensions-1.0",
+  "extends_source_bank_release_id": "evidence-sources-1.0",
+  "all_sources_verified": true,
+  "dossiers": [
+    {
+      "dossier_id": "nighttime-noise-sleep-disturbance",
+      "title": "Nighttime noise and sleep disturbance",
+      "claim_summary": "A systematic review and meta-analysis updating the WHO review found that higher nighttime transportation-noise exposure was associated with greater self-reported sleep disturbance, particularly when the question identified noise as the source.",
+      "evidence_basis": "Nighttime environmental noise can disturb sleep when that exposure is present.",
+      "population": "Community residents exposed to aircraft, road, or railway noise at home; 36 studies and more than 170,000 responses across the updated and original WHO evidence base.",
+      "applicability": "Supports a conditional suggestion to reduce or block nighttime noise when a repeated sleep-continuity problem is present and nighttime noise actually affects the person.",
+      "limitations": [
+        "The principal outcomes were self-reported sleep disturbance, awakenings, and difficulty falling asleep rather than Fitbit-estimated WASO.",
+        "The exposure was mainly transportation noise; results do not establish that noise caused one person's recorded pattern.",
+        "The current input does not measure bedroom noise."
+      ],
+      "case_dimensions": [
+        "waso_min",
+        "sleep_efficiency_pct",
+        "total_sleep_min"
+      ],
+      "supported_outcome_dimensions": [
+        "waso_min",
+        "sleep_efficiency_pct"
+      ],
+      "evidence_level": "guidance",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not infer noise exposure from sleep data.",
+        "Do not claim that reducing noise will necessarily change Fitbit-estimated WASO.",
+        "Do not prescribe a noise level or continuous white-noise treatment."
+      ],
+      "source": {
+        "source_id": "smith-2022-environmental-noise-sleep",
+        "title": "Environmental Noise and Effects on Sleep: An Update to the WHO Systematic Review and Meta-Analysis",
+        "organization": "Environmental Health Perspectives (Smith et al.)",
+        "year": 2022,
+        "url": "https://doi.org/10.1289/EHP10197",
+        "locator": "Abstract/Results: 11 new studies plus 25 studies in the original WHO analysis; higher nighttime transportation-noise exposure was associated with greater self-reported sleep disturbance.",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "light-timing-sleep-review",
+      "title": "Light timing and sleep timing",
+      "claim_summary": "A systematic review of community-dwelling adults found that the timing of light exposure was associated with sleep timing: greater morning light was generally linked to earlier sleep timing, whereas greater evening light was linked to later sleep timing.",
+      "evidence_basis": "The timing of light exposure can influence sleep timing.",
+      "population": "Community-dwelling adults represented in 45 experimental and observational studies.",
+      "applicability": "Supports explaining why evening light may matter when a repeated late sleep pattern is present; action wording must remain conditional because the input does not record light exposure or whether the timing is unwanted.",
+      "limitations": [
+        "The review included heterogeneous experimental and observational designs.",
+        "The current input does not measure light exposure.",
+        "Clock timing alone does not diagnose a circadian rhythm disorder or establish that the person wants a different schedule."
+      ],
+      "case_dimensions": [
+        "sleep_onset_clock_min",
+        "final_wake_clock_min",
+        "sleep_midpoint_clock_min"
+      ],
+      "supported_outcome_dimensions": [
+        "sleep_onset_clock_min",
+        "final_wake_clock_min"
+      ],
+      "evidence_level": "explanation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not infer evening screen or bright-light exposure.",
+        "Do not prescribe a light-box dose, intensity, or clock time.",
+        "Do not diagnose delayed or advanced sleep-wake phase disorder."
+      ],
+      "source": {
+        "source_id": "dautovich-2019-light-sleep-review",
+        "title": "A systematic review of the amount and timing of light in association with objective and subjective sleep outcomes in community-dwelling adults",
+        "organization": "Sleep Health (Dautovich et al.)",
+        "year": 2019,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30670164/",
+        "locator": "Systematic review of 45 studies; timing of light exposure was associated with sleep timing in community-dwelling adults.",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "nsf-sleep-quality-continuity-reference",
+      "title": "Adult sleep-quality continuity references",
+      "claim_summary": "The National Sleep Foundation consensus identifies sleep latency, awakenings lasting more than five minutes, wake after sleep onset, and sleep efficiency as core sleep-quality indicators. For adults aged 18 to 64, its public checklist uses sleep latency of 30 minutes or less, no more than one awakening lasting over five minutes, and WASO of 20 minutes or less; for adults aged 65 and older, the corresponding references are 30 minutes, no more than two longer awakenings, and 30 minutes.",
+      "evidence_basis": "Age-aware reference values can describe repeated sleep-initiation and sleep-maintenance patterns without diagnosing a sleep disorder.",
+      "population": "Otherwise healthy adults aged 18 years and older.",
+      "applicability": "Use only as repeated-night context when a source field has compatible semantics and crossing the reference materially changes interpretation.",
+      "limitations": [
+        "These are indicators of sleep quality, not diagnostic criteria or individual treatment targets.",
+        "Fitbit-estimated WASO is not polysomnographic WASO.",
+        "minute_to_fall_asleep is often zero in automatically detected Fitbit logs and requires a data-availability check before interpretation.",
+        "All of Us count_wake counts entries into wake stage and must not be compared with the consensus threshold for awakenings lasting more than five minutes."
+      ],
+      "case_dimensions": [
+        "waso_min",
+        "minute_to_fall_asleep",
+        "wake_episode_over_5_min_count",
+        "sleep_efficiency_pct"
+      ],
+      "supported_outcome_dimensions": [
+        "waso_min",
+        "minute_to_fall_asleep",
+        "wake_episode_over_5_min_count",
+        "sleep_efficiency_pct"
+      ],
+      "evidence_level": "reference",
+      "reference_values": [
+        {
+          "metric_id": "waso_min",
+          "comparator": "at_most",
+          "value": 20,
+          "unit": "min",
+          "label": "adult sleep-quality WASO reference for ages 18 to 64",
+          "use_as": "repeated_night_quality_context_only"
+        },
+        {
+          "metric_id": "waso_min",
+          "comparator": "at_most",
+          "value": 30,
+          "unit": "min",
+          "label": "older-adult sleep-quality WASO reference for ages 65 and older",
+          "use_as": "repeated_night_quality_context_only"
+        },
+        {
+          "metric_id": "minute_to_fall_asleep",
+          "comparator": "at_most",
+          "value": 30,
+          "unit": "min",
+          "label": "adult sleep-latency quality reference",
+          "use_as": "repeated_night_quality_context_only"
+        },
+        {
+          "metric_id": "wake_episode_over_5_min_count",
+          "comparator": "at_most",
+          "value": 1,
+          "unit": "count/night",
+          "label": "longer-awakening quality reference for adults aged 18 to 64",
+          "use_as": "repeated_night_quality_context_only"
+        },
+        {
+          "metric_id": "wake_episode_over_5_min_count",
+          "comparator": "at_most",
+          "value": 2,
+          "unit": "count/night",
+          "label": "longer-awakening quality reference for adults aged 65 and older",
+          "use_as": "repeated_night_quality_context_only"
+        }
+      ],
+      "prohibited_uses": [
+        "Do not diagnose insomnia from a reference crossing.",
+        "Do not use a single night as the trigger.",
+        "Do not interpret a zero minute_to_fall_asleep value as verified immediate sleep onset.",
+        "Do not compare count_wake with the awakenings-longer-than-five-minutes reference; use only wake_episode_over_5_min_count derived from retained wake intervals."
+      ],
+      "source": {
+        "source_id": "nsf-2017-sleep-quality-consensus",
+        "title": "National Sleep Foundation's sleep quality recommendations: first report",
+        "organization": "National Sleep Foundation; Sleep Health",
+        "year": 2017,
+        "url": "https://doi.org/10.1016/j.sleh.2016.11.006",
+        "locator": "Consensus results for sleep latency, awakenings lasting more than five minutes, wake after sleep onset, and sleep efficiency across the adult lifespan.",
+        "source_tier": "formal_consensus"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "nsf-healthy-sleep-behaviors",
+      "title": "National Sleep Foundation healthy sleep behaviors",
+      "claim_summary": "The National Sleep Foundation recommends six general healthy-sleep behaviors: daytime bright light, regular exercise, consistent mealtimes, avoiding heavy meals and disruptive substances before bed, a consistent relaxing wind-down, and a quiet, cool, dark bedroom with devices put away before bed.",
+      "evidence_basis": "Supports low-risk general sleep-health guidance when the relevant behavior is known or explicitly stated as an unobserved condition.",
+      "population": "General adult public-health guidance.",
+      "applicability": "Provides action language, but does not establish that any exposure is present or that one behavior caused a recorded sleep pattern.",
+      "limitations": [
+        "The current input does not measure light, meals, caffeine, alcohol, nicotine, screens, wind-down routine, or bedroom conditions.",
+        "These general behaviors are not a substitute for clinical assessment of persistent symptoms.",
+        "The guidance does not create a one-to-one action for every sleep-quality reference crossing."
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "waso_min",
+        "sleep_efficiency_pct",
+        "sleep_onset_clock_min",
+        "final_wake_clock_min"
+      ],
+      "supported_outcome_dimensions": [
+        "total_sleep_min",
+        "waso_min",
+        "sleep_efficiency_pct",
+        "sleep_onset_clock_min"
+      ],
+      "evidence_level": "guidance",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not infer an unrecorded behavior or exposure.",
+        "Do not turn the six behaviors into a checklist for every case.",
+        "Do not claim a particular behavior caused the observed pattern."
+      ],
+      "source": {
+        "source_id": "nsf-best-slept-self-six-behaviors",
+        "title": "Practice these six small steps for healthy sleep",
+        "organization": "National Sleep Foundation",
+        "year": 2026,
+        "url": "https://www.thensf.org/",
+        "locator": "Best Slept Self: daytime light, exercise, consistent mealtimes; nighttime avoidance of heavy meals, nicotine, caffeine and alcohol, relaxing wind-down, and a quiet, cool, dark bedroom with devices put away.",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "persistent-short-sleep-clinical-evaluation",
+      "title": "Persistent short sleep may need clinical evaluation",
+      "claim_summary": "The National Heart, Lung, and Blood Institute advises people to talk with a doctor when daily routines limit adequate sleep or when they often feel sleepy during the day or do not wake refreshed. Clinical evaluation uses sleep history and daytime context to determine whether a schedule, health condition, or sleep disorder may contribute.",
+      "evidence_basis": "Supports conditional professional evaluation when repeated short sleep continues despite enough time in bed or is accompanied by recognizable daytime symptoms.",
+      "population": "Adults with ongoing insufficient sleep or symptoms suggesting a sleep problem.",
+      "applicability": "Use only as a conditional clinical boundary when repeated short sleep remains unresolved and no more direct action based on observed data addresses it.",
+      "limitations": [
+        "A short recorded sleep duration does not by itself establish a sleep disorder.",
+        "The current input does not record whether the person feels sleepy, unrefreshed, or has trouble concentrating during the day.",
+        "The source supports clinical evaluation, not a medication or melatonin recommendation from recorded sleep data."
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "time_in_bed_min"
+      ],
+      "supported_outcome_dimensions": [
+        "total_sleep_min",
+        "time_in_bed_min"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not diagnose insomnia, circadian rhythm disorder, or another sleep disorder.",
+        "Do not infer daytime sleepiness, impaired concentration, or feeling unrefreshed.",
+        "Do not recommend melatonin, another medication, or a treatment protocol."
+      ],
+      "source": {
+        "source_id": "nhlbi-sleep-deprivation-evaluation",
+        "title": "Sleep Deprivation and Deficiency: Diagnosis and How Much Sleep Is Enough",
+        "organization": "National Heart, Lung, and Blood Institute, National Institutes of Health",
+        "year": 2026,
+        "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/diagnosis-treatment",
+        "locator": "Diagnosis guidance on discussing frequent daytime sleepiness, unrefreshing sleep, sleep schedule, and sleep history with a doctor; companion guidance advises medical discussion when daily routines limit adequate sleep.",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    }
+  ]
+}

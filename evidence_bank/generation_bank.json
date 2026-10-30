@@ -1,0 +1,585 @@
+[
+  {
+    "evidence_key": "adults-18-to-64-usually-need-at-least-7-hours",
+    "evidence_role": "reference",
+    "analysis_support": "Adults generally need 7 or more hours of sleep, although the amount an individual needs can vary.",
+    "recommendation_support": null,
+    "canonical_action_title": null,
+    "allowed_action_titles": [],
+    "follow_up_support": null,
+    "select_when": "The person is aged 18 to 64 and the repeated recent sleep duration is clearly below 7 hours in a way that changes the decision; interpret it alongside the earlier and whole-record pattern.",
+    "outcome_metrics": [
+      "total_sleep_min"
+    ],
+    "reference_values": [
+      {
+        "metric_id": "total_sleep_min",
+        "comparator": "at_least",
+        "value": 420.0,
+        "unit": "min",
+        "label": "usual lower sleep-duration reference for adults aged 18 to 64"
+      }
+    ],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not apply to adults aged 65 or older.",
+      "Do not use for one short night or when the recommendation would be unchanged without the reference.",
+      "Do not call 7 hours an exact personal requirement."
+    ]
+  },
+  {
+    "evidence_key": "adults-65-plus-usually-need-at-least-7-hours",
+    "evidence_role": "reference",
+    "analysis_support": "Older adults generally need 7 or more hours of sleep, although the amount an individual needs can vary.",
+    "recommendation_support": null,
+    "canonical_action_title": null,
+    "allowed_action_titles": [],
+    "follow_up_support": null,
+    "select_when": "The person is aged 65 or older and the repeated recent sleep duration is clearly below 7 hours in a way that changes the decision; interpret it alongside the earlier and whole-record pattern.",
+    "outcome_metrics": [
+      "total_sleep_min"
+    ],
+    "reference_values": [
+      {
+        "metric_id": "total_sleep_min",
+        "comparator": "at_least",
+        "value": 420.0,
+        "unit": "min",
+        "label": "usual lower sleep-duration reference for adults aged 65 and older"
+      }
+    ],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not apply to adults younger than 65.",
+      "Do not use for one short night or when the recommendation would be unchanged without the reference.",
+      "Do not call 7 hours an exact personal requirement."
+    ]
+  },
+  {
+    "evidence_key": "sleep-efficiency-below-85-percent-may-reflect-poor-continuity",
+    "evidence_role": "reference",
+    "analysis_support": "Across repeated nights, spending at least 85% of time in bed asleep is one general sign of good sleep quality. It is not a diagnosis or an exact personal target.",
+    "recommendation_support": null,
+    "canonical_action_title": null,
+    "allowed_action_titles": [],
+    "follow_up_support": null,
+    "select_when": "Recent usual sleep efficiency is below 85% and the reference changes how a repeated continuity or short-duration pattern is interpreted.",
+    "outcome_metrics": [
+      "sleep_efficiency_pct",
+      "total_sleep_min",
+      "time_in_bed_min"
+    ],
+    "reference_values": [
+      {
+        "metric_id": "sleep_efficiency_pct",
+        "comparator": "at_least",
+        "value": 85.0,
+        "unit": "%",
+        "label": "general repeated-night sleep-efficiency quality reference"
+      }
+    ],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not diagnose insomnia.",
+      "Name sleep efficiency directly and, when needed, explain it as the percentage of time in bed spent asleep; do not relabel it as time awake after falling asleep.",
+      "Do not use 85% as an exact personal treatment target."
+    ]
+  },
+  {
+    "evidence_key": "waso-quality-reference-for-adults-18-to-64",
+    "evidence_role": "reference",
+    "analysis_support": "Repeatedly spending longer awake after first falling asleep can indicate interrupted sleep. For adults, 20 minutes or less is commonly used as one general sign of good sleep quality, not as a diagnosis or an exact personal target.",
+    "recommendation_support": null,
+    "canonical_action_title": null,
+    "allowed_action_titles": [],
+    "follow_up_support": null,
+    "select_when": "Use for an adult younger than 65 when time awake after falling asleep is repeatedly longer than 20 minutes across both the whole record and recent nights, and this helps explain an ongoing interruption pattern.",
+    "outcome_metrics": [
+      "waso_min",
+      "sleep_efficiency_pct"
+    ],
+    "reference_values": [
+      {
+        "metric_id": "waso_min",
+        "comparator": "at_most",
+        "value": 20.0,
+        "unit": "min",
+        "label": "20-minute awake-time comparison for adults younger than 65"
+      }
+    ],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not apply to adults aged 65 or older.",
+      "Do not diagnose insomnia or another sleep disorder.",
+      "Do not use one night or a small isolated increase as the trigger.",
+      "Describe the measure in plain language as time awake after falling asleep."
+    ]
+  },
+  {
+    "evidence_key": "waso-quality-reference-for-adults-65-plus",
+    "evidence_role": "reference",
+    "analysis_support": "Repeatedly spending longer awake after first falling asleep can indicate interrupted sleep. For older adults, 30 minutes or less is commonly used as one general sign of good sleep quality, not as a diagnosis or an exact personal target.",
+    "recommendation_support": null,
+    "canonical_action_title": null,
+    "allowed_action_titles": [],
+    "follow_up_support": null,
+    "select_when": "Use for an older adult when time awake after falling asleep is repeatedly longer than 30 minutes across both the whole record and recent nights, and this helps explain an ongoing interruption pattern.",
+    "outcome_metrics": [
+      "waso_min",
+      "sleep_efficiency_pct"
+    ],
+    "reference_values": [
+      {
+        "metric_id": "waso_min",
+        "comparator": "at_most",
+        "value": 30.0,
+        "unit": "min",
+        "label": "30-minute awake-time comparison for older adults"
+      }
+    ],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not apply to adults younger than 65.",
+      "Do not diagnose insomnia or another sleep disorder.",
+      "Do not use one night or a small isolated increase as the trigger.",
+      "Describe the measure in plain language as time awake after falling asleep."
+    ]
+  },
+  {
+    "evidence_key": "sleep-latency-quality-reference-for-adults",
+    "evidence_role": "reference",
+    "analysis_support": "Falling asleep within 30 minutes is one general sign of good sleep quality for adults. Longer repeated times can indicate difficulty settling to sleep, but zero values in this record may be automatic rather than exact.",
+    "recommendation_support": null,
+    "canonical_action_title": null,
+    "allowed_action_titles": [],
+    "follow_up_support": null,
+    "select_when": "Both the whole-record and recent typical time to fall asleep exceed 30 minutes, and enough nights contain nonzero values to rule out an automatic-log zero pattern.",
+    "outcome_metrics": [
+      "minute_to_fall_asleep"
+    ],
+    "reference_values": [
+      {
+        "metric_id": "minute_to_fall_asleep",
+        "comparator": "at_most",
+        "value": 30.0,
+        "unit": "min",
+        "label": "adult sleep-latency quality reference"
+      }
+    ],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not diagnose insomnia.",
+      "Do not use a single night as the trigger.",
+      "Do not interpret zero minutes as verified immediate sleep onset.",
+      "Do not select this card when the source field is dominated by automatic-log zeros."
+    ]
+  },
+  {
+    "evidence_key": "long-wake-episode-reference-for-adults-18-to-64",
+    "evidence_role": "reference",
+    "analysis_support": "For adults, no more than one recorded wake episode lasting over five minutes is one general sign of good sleep quality. More repeated episodes can mean less continuous sleep, but they do not diagnose a disorder.",
+    "recommendation_support": null,
+    "canonical_action_title": null,
+    "allowed_action_titles": [],
+    "follow_up_support": null,
+    "select_when": "The person is aged 18 to 64 and both the whole-record and recent typical counts exceed one recorded wake episode lasting over five minutes per night.",
+    "outcome_metrics": [
+      "wake_episode_over_5_min_count",
+      "waso_min",
+      "sleep_efficiency_pct"
+    ],
+    "reference_values": [
+      {
+        "metric_id": "wake_episode_over_5_min_count",
+        "comparator": "at_most",
+        "value": 1.0,
+        "unit": "count/night",
+        "label": "longer-awakening quality reference for adults aged 18 to 64"
+      }
+    ],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not apply to adults aged 65 or older.",
+      "Do not diagnose insomnia or another sleep disorder.",
+      "Do not use count_wake for this comparison; use only wake episodes derived from retained intervals.",
+      "Do not use one night as the trigger."
+    ]
+  },
+  {
+    "evidence_key": "long-wake-episode-reference-for-adults-65-plus",
+    "evidence_role": "reference",
+    "analysis_support": "For older adults, no more than two recorded wake episodes lasting over five minutes is one general sign of good sleep quality. More repeated episodes can mean less continuous sleep, but they do not diagnose a disorder.",
+    "recommendation_support": null,
+    "canonical_action_title": null,
+    "allowed_action_titles": [],
+    "follow_up_support": null,
+    "select_when": "The person is aged 65 or older and both the whole-record and recent typical counts exceed two recorded wake episodes lasting over five minutes per night.",
+    "outcome_metrics": [
+      "wake_episode_over_5_min_count",
+      "waso_min",
+      "sleep_efficiency_pct"
+    ],
+    "reference_values": [
+      {
+        "metric_id": "wake_episode_over_5_min_count",
+        "comparator": "at_most",
+        "value": 2.0,
+        "unit": "count/night",
+        "label": "longer-awakening quality reference for adults aged 65 and older"
+      }
+    ],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not apply to adults younger than 65.",
+      "Do not diagnose insomnia or another sleep disorder.",
+      "Do not use count_wake for this comparison; use only wake episodes derived from retained intervals.",
+      "Do not use one night as the trigger."
+    ]
+  },
+  {
+    "evidence_key": "time-in-bed-is-not-the-same-as-sleep-duration",
+    "evidence_role": "explanation",
+    "analysis_support": "Time in bed includes time before first falling asleep, wakefulness after sleep begins, and time after final wake, so it should not be treated as the same measure as sleep duration.",
+    "recommendation_support": null,
+    "canonical_action_title": null,
+    "allowed_action_titles": [],
+    "follow_up_support": null,
+    "select_when": "The difference between time in bed and sleep duration changes whether the main pattern is limited time available for sleep or reduced continuity.",
+    "outcome_metrics": [
+      "time_in_bed_min",
+      "total_sleep_min",
+      "minute_to_fall_asleep",
+      "waso_min",
+      "minute_after_wakeup"
+    ],
+    "reference_values": [],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not imply that time in bed is a recommended target by itself.",
+      "Do not list every component unless it is needed to explain this case.",
+      "Do not claim a cause for the difference from the sleep record alone."
+    ]
+  },
+  {
+    "evidence_key": "allow-more-time-for-sleep",
+    "evidence_role": "guidance",
+    "analysis_support": "When sleep is repeatedly short and the available time for sleep is also limited, making somewhat more time available can increase sleep duration, although the amount of change varies.",
+    "recommendation_support": "When practical, make a little more time for sleep on the days when it is repeatedly short, for example by starting the sleep period a little earlier, without forcing a fixed bedtime.",
+    "canonical_action_title": "Make more time for sleep",
+    "allowed_action_titles": [
+      "Make more time for sleep",
+      "Give short nights more time",
+      "Restore enough time for sleep"
+    ],
+    "follow_up_support": "After making more time available, see whether sleep lasts longer across several nights. If it does, keep allowing the additional time.",
+    "select_when": "Sleep duration is repeatedly short recently and time in bed is also below 7 hours in the same recent or weekday pattern. Do not infer limited time available merely because sleep is below 7 hours.",
+    "outcome_metrics": [
+      "total_sleep_min",
+      "time_in_bed_min"
+    ],
+    "reference_values": [],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not promise a health, mood, or performance benefit.",
+      "Do not recommend an earlier sleep start when time in bed is already at least 7 hours.",
+      "Do not turn this into a fixed sleep schedule unless separate timing-consistency Evidence is selected."
+    ]
+  },
+  {
+    "evidence_key": "make-sleep-timing-more-consistent",
+    "evidence_role": "guidance",
+    "analysis_support": "Regular sleep timing is one dimension of sleep health, but no universal bedtime, wake time, or acceptable amount of variation applies to every person.",
+    "recommendation_support": "When practical, make the part of sleep timing that actually differs more consistent, while still leaving enough time to sleep.",
+    "canonical_action_title": "Make sleep timing more consistent",
+    "allowed_action_titles": [
+      "Make sleep timing more consistent",
+      "Narrow the sleep-timing gap",
+      "Bring differing sleep times closer"
+    ],
+    "follow_up_support": "Look for the same timing component to become more consistent across several nights without shortening sleep.",
+    "select_when": "The record shows a repeated, meaningful timing difference or variability rather than one unusual night, and reducing the difference would not sacrifice needed recovery sleep.",
+    "outcome_metrics": [
+      "sleep_onset_clock_min",
+      "final_wake_clock_min",
+      "sleep_midpoint_clock_min"
+    ],
+    "reference_values": [],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not diagnose social jetlag or a circadian disorder.",
+      "Do not invent a universal one-hour threshold or fixed target schedule.",
+      "Do not reduce weekend sleep simply to make timing look more regular.",
+      "Do not default to changing wake time when the observed difference is instead a later sleep start."
+    ]
+  },
+  {
+    "evidence_key": "preserve-recovery-sleep-when-weekday-sleep-is-short",
+    "evidence_role": "boundary",
+    "analysis_support": "When weekday sleep is repeatedly short, longer weekend sleep may partly reflect recovery, so reducing the timing difference should not take priority over preserving sleep duration.",
+    "recommendation_support": null,
+    "canonical_action_title": null,
+    "allowed_action_titles": [],
+    "follow_up_support": null,
+    "select_when": "Weekday sleep is repeatedly shorter than weekend sleep and a timing-consistency recommendation would otherwise reduce weekend sleep.",
+    "outcome_metrics": [
+      "total_sleep_min",
+      "sleep_onset_clock_min",
+      "final_wake_clock_min",
+      "sleep_midpoint_clock_min"
+    ],
+    "reference_values": [],
+    "required_condition": null,
+    "do_not_claim": [
+      "Calendar weekday and weekend are only proxies for workdays and free days.",
+      "Do not present weekend recovery sleep as a complete remedy for chronic short sleep.",
+      "Do not use this boundary when no weekday-weekend contrast is reportable."
+    ]
+  },
+  {
+    "evidence_key": "maintain-a-stable-adequate-sleep-pattern",
+    "evidence_role": "guidance",
+    "analysis_support": "Adequate duration, appropriate timing, regularity, and good quality are complementary dimensions of healthy sleep. A recent improvement or stable adequate pattern can be maintained when no repeated concern outweighs it.",
+    "recommendation_support": "Maintain the specific sleep dimension that is working. For adequate duration, continue leaving a similar amount of time for sleep; for stable timing, keep similar sleep and wake times when practical. Do not attribute the pattern to an unrecorded routine.",
+    "canonical_action_title": "Keep the recent sleep gains",
+    "allowed_action_titles": [
+      "Keep the recent sleep gains",
+      "Protect the current sleep duration",
+      "Maintain the recent sleep efficiency",
+      "Keep the recent sleep timing"
+    ],
+    "follow_up_support": "Over the next several nights, see whether that specific sleep dimension remains near its recent level. If it does, keep the same supported time-in-bed or sleep-timing action.",
+    "select_when": "The whole record and recent period are broadly stable and adequate, or an isolated change has recovered without a remaining repeated problem.",
+    "outcome_metrics": [
+      "total_sleep_min",
+      "sleep_efficiency_pct",
+      "sleep_onset_clock_min",
+      "final_wake_clock_min"
+    ],
+    "reference_values": [],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not call the pattern perfect or guarantee that no sleep problem exists.",
+      "Do not ignore a repeated short-duration, continuity, or timing problem merely because the latest night improved.",
+      "Do not claim that an unrecorded routine caused or accompanied the pattern."
+    ]
+  },
+  {
+    "evidence_key": "caffeine-close-to-sleep-may-disrupt-sleep",
+    "evidence_role": "guidance",
+    "analysis_support": "Caffeine near bedtime can shorten sleep, reduce sleep efficiency, and increase time awake after sleep begins.",
+    "recommendation_support": "If you use caffeine near bedtime, try having it earlier or avoiding it near bedtime.",
+    "canonical_action_title": "Move caffeine earlier if relevant",
+    "allowed_action_titles": [
+      "Move caffeine earlier if relevant",
+      "Avoid caffeine near bedtime if relevant",
+      "Change evening caffeine timing if relevant"
+    ],
+    "follow_up_support": "After moving caffeine earlier, see whether you sleep longer and spend less time awake after falling asleep across several nights. If both improve, keep the earlier timing; if neither changes, caffeine timing may not be an important contributor to this pattern.",
+    "select_when": "Repeated short sleep and reduced continuity are both central, time in bed is not the main limiting factor, and no more direct measured-data step addresses the unresolved continuity concern; caffeine use is stated only as an unrecorded condition.",
+    "outcome_metrics": [
+      "total_sleep_min",
+      "sleep_efficiency_pct",
+      "waso_min"
+    ],
+    "reference_values": [],
+    "required_condition": "if you use caffeine near bedtime",
+    "do_not_claim": [
+      "Do not infer caffeine use or claim that caffeine caused the pattern.",
+      "Do not prescribe a universal cutoff time from the current record.",
+      "Do not advise changing prescribed medication."
+    ]
+  },
+  {
+    "evidence_key": "late-light-or-screen-use-may-delay-sleep",
+    "evidence_role": "guidance",
+    "analysis_support": "Bright light late in the evening can signal wakefulness and may contribute to later sleep timing when that exposure is present.",
+    "recommendation_support": "If bright light or screen use occurs before sleep and the later timing is unwanted, reduce or dim it while winding down.",
+    "canonical_action_title": "Reduce evening light if earlier sleep is wanted",
+    "allowed_action_titles": [
+      "Reduce evening light if earlier sleep is wanted",
+      "Dim light before sleep if timing is unwanted",
+      "Reduce screen exposure if earlier sleep is wanted"
+    ],
+    "follow_up_support": "After making that change, see whether sleep begins earlier across several nights.",
+    "select_when": "The record shows a repeated later sleep pattern or a later shift, the timing could matter to the person, and evening light or screen exposure is stated only as an unrecorded condition.",
+    "outcome_metrics": [
+      "sleep_onset_clock_min",
+      "final_wake_clock_min"
+    ],
+    "reference_values": [],
+    "required_condition": "if bright light or screen use occurs before sleep and the later timing is unwanted",
+    "do_not_claim": [
+      "Do not infer screen or light exposure from clock timing.",
+      "Do not diagnose a circadian disorder.",
+      "Do not prescribe a light-box dose, intensity, or fixed clock time."
+    ]
+  },
+  {
+    "evidence_key": "a-quiet-wind-down-may-support-sleep",
+    "evidence_role": "guidance",
+    "analysis_support": "A quiet period before bed may make it easier to settle for sleep when the period before sleep is busy or stimulating.",
+    "recommendation_support": "If the period before sleep is busy or stimulating, use one familiar quiet activity to wind down.",
+    "canonical_action_title": "Use a quieter wind-down if needed",
+    "allowed_action_titles": [
+      "Use a quieter wind-down if needed",
+      "Add a quiet activity before sleep if relevant",
+      "Make the pre-sleep period calmer if needed"
+    ],
+    "follow_up_support": "After using the quieter routine, see whether the time it takes to fall asleep becomes shorter across several nights.",
+    "select_when": "Repeated informative sleep-latency values exceed the adult quality reference, no direct measured-data action addresses that pattern, and a busy or stimulating pre-sleep period is stated only as an unrecorded condition.",
+    "outcome_metrics": [
+      "minute_to_fall_asleep"
+    ],
+    "reference_values": [],
+    "required_condition": "if the period before sleep is busy or stimulating",
+    "do_not_claim": [
+      "Do not infer stress, anxiety, or hyperarousal.",
+      "Do not present relaxation as treatment for insomnia.",
+      "Do not add a long checklist of bedtime activities."
+    ]
+  },
+  {
+    "evidence_key": "regular-daytime-movement-may-support-sleep-efficiency",
+    "evidence_role": "guidance",
+    "analysis_support": "Regular daytime movement can support sleep quality. In this case, sleep efficiency also tended to be higher after the person's more active days, although this relationship does not prove that activity caused the difference.",
+    "recommendation_support": "When it is safe and practical, keep some regular daytime movement in the person's usual routine.",
+    "canonical_action_title": "Keep daytime movement regular",
+    "allowed_action_titles": [
+      "Keep daytime movement regular",
+      "Maintain the movement already in your routine",
+      "Keep regular daytime activity in your routine"
+    ],
+    "follow_up_support": "Across the following nights, see whether sleep efficiency remains higher after more active days. If the same pattern continues, keep regular daytime movement in the usual routine.",
+    "select_when": "The case contains a reportable within-person activity-to-sleep-efficiency pattern in the supported direction, rather than merely low or declining activity.",
+    "outcome_metrics": [
+      "sleep_efficiency_pct"
+    ],
+    "reference_values": [],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not infer fitness, health status, or exercise safety.",
+      "Do not infer low activity or recommend increasing activity from recorded active-minute totals; use only the reportable within-person relationship and recommend regular movement that fits the person's routine.",
+      "Do not prescribe an intensity or dose from vendor-defined activity minutes.",
+      "Do not claim that a day-level association establishes causation."
+    ]
+  },
+  {
+    "evidence_key": "sleep-stage-estimates-are-not-action-targets",
+    "evidence_role": "boundary",
+    "analysis_support": "Deep and REM sleep estimates can vary from night to night and may differ from laboratory sleep staging, so they can describe part of the record but should not be treated as precise personal targets.",
+    "recommendation_support": null,
+    "canonical_action_title": null,
+    "allowed_action_titles": [],
+    "follow_up_support": null,
+    "select_when": "A repeated change in deep or REM sleep is prominent enough to mention and the interpretation otherwise risks turning the estimate into a diagnosis or a behavior target.",
+    "outcome_metrics": [],
+    "reference_values": [],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not recommend increasing or decreasing a sleep stage.",
+      "Do not diagnose a disorder from a stage estimate.",
+      "Do not let a stage estimate replace duration, timing, or continuity as the outcome of a recommendation."
+    ]
+  },
+  {
+    "evidence_key": "sleep-timing-alone-does-not-confirm-circadian-phase",
+    "evidence_role": "explanation",
+    "analysis_support": "Sleep start, wake time, and the middle of the sleep period can describe a timing pattern, but clock times alone cannot confirm the timing of the person's internal body clock or a circadian disorder.",
+    "recommendation_support": null,
+    "canonical_action_title": null,
+    "allowed_action_titles": [],
+    "follow_up_support": null,
+    "select_when": "A repeated late or early timing pattern is being interpreted and the wording otherwise risks labeling it as a circadian phase problem.",
+    "outcome_metrics": [
+      "sleep_onset_clock_min",
+      "final_wake_clock_min",
+      "sleep_midpoint_clock_min"
+    ],
+    "reference_values": [],
+    "required_condition": null,
+    "do_not_claim": [
+      "Do not label the pattern as delayed sleep phase, advanced sleep phase, or social jetlag.",
+      "Do not say the timing needs correction without knowing whether it conflicts with the person's needs."
+    ]
+  },
+  {
+    "evidence_key": "unwanted-sleep-timing-may-need-clinical-review",
+    "evidence_role": "boundary",
+    "analysis_support": "A stable late or early schedule is not automatically a disorder. Whether a persistent timing shift needs professional evaluation depends on whether it is unwanted and conflicts with necessary daily responsibilities; the sleep record alone cannot establish a circadian disorder or choose a treatment.",
+    "recommendation_support": "If the timing is unwanted, persistent, and interferes with necessary responsibilities, discuss the pattern with a qualified clinician or sleep specialist rather than starting or timing melatonin from the record alone.",
+    "canonical_action_title": "Discuss an unwanted timing shift",
+    "allowed_action_titles": [
+      "Discuss an unwanted timing shift",
+      "Seek advice if the timing shift is disruptive",
+      "Discuss persistent timing that does not fit your needs"
+    ],
+    "follow_up_support": "If that condition applies, bring the repeated sleep-onset and final-wake pattern to the clinical discussion rather than relying on one night.",
+    "select_when": "A repeated late or early timing pattern is present and the recommendation explicitly remains conditional on the timing being unwanted and disruptive.",
+    "outcome_metrics": [
+      "sleep_onset_clock_min",
+      "final_wake_clock_min",
+      "sleep_midpoint_clock_min"
+    ],
+    "reference_values": [],
+    "required_condition": "if the timing is unwanted and conflicts with necessary responsibilities",
+    "do_not_claim": [
+      "Do not diagnose a circadian rhythm sleep-wake disorder.",
+      "Do not imply that later or earlier timing is unhealthy solely because of the clock time.",
+      "Do not recommend self-directed melatonin or prescribe a light or medication protocol.",
+      "Do not provide a melatonin dose or clock time."
+    ]
+  },
+  {
+    "evidence_key": "persistent-short-sleep-needs-clinical-context",
+    "evidence_role": "boundary",
+    "analysis_support": "Repeated short sleep can have different explanations. When it continues despite regularly leaving enough time for sleep, sleep history and daytime symptoms help a clinician decide whether schedule demands, another health issue, or a sleep disorder needs attention.",
+    "recommendation_support": "If the short sleep continues even when you regularly leave enough time for sleep, or if you also feel unusually sleepy during the day, wake unrefreshed, or have trouble concentrating, discuss the pattern with a doctor.",
+    "canonical_action_title": "Seek advice if short sleep persists",
+    "allowed_action_titles": [
+      "Seek advice if short sleep persists",
+      "Discuss repeated short sleep if it continues",
+      "Seek help if short sleep affects the day"
+    ],
+    "follow_up_support": "Before that discussion, note whether short sleep continues on nights with at least 7 hours in bed and whether you notice unusual daytime sleepiness, unrefreshing sleep, or trouble concentrating.",
+    "select_when": "Recent sleep is repeatedly short despite at least 7 hours in bed, no more specific observed-data or conditional action addresses the pattern, and clinical evaluation remains conditional on persistence or unrecorded daytime symptoms.",
+    "outcome_metrics": [
+      "total_sleep_min",
+      "time_in_bed_min"
+    ],
+    "reference_values": [],
+    "required_condition": "if short sleep continues despite enough time in bed, or if unusual daytime sleepiness, unrefreshing sleep, or trouble concentrating is also present",
+    "do_not_claim": [
+      "Do not diagnose a sleep disorder or infer daytime symptoms.",
+      "Do not present clinical discussion as necessary after one short night.",
+      "Do not recommend melatonin, another medication, or a treatment protocol.",
+      "Do not select this when making more time for sleep or another more specific action already addresses the primary pattern."
+    ]
+  },
+  {
+    "evidence_key": "persistent-sleep-difficulty-needs-clinical-context",
+    "evidence_role": "boundary",
+    "analysis_support": "A repeated sleep pattern is more useful to discuss with a clinician when the person also has ongoing trouble sleeping, feels unusually sleepy during the day, or has trouble concentrating. The sleep record alone cannot establish a disorder.",
+    "recommendation_support": "If you are also having ongoing sleep difficulty, unusual daytime sleepiness, or trouble concentrating, discuss the repeated pattern with a clinician.",
+    "canonical_action_title": "Discuss persistent sleep difficulty",
+    "allowed_action_titles": [
+      "Discuss persistent sleep difficulty",
+      "Seek advice if sleep difficulties persist",
+      "Discuss repeated interruptions if they affect you"
+    ],
+    "follow_up_support": "Before the discussion, note which of those problems you notice and how often they occur.",
+    "select_when": "A prominent repeated duration or continuity problem remains unresolved, no selected direct self-directed step addresses it, and clinical care remains explicitly conditional on unrecorded ongoing trouble sleeping, unusual daytime sleepiness, or trouble concentrating.",
+    "outcome_metrics": [
+      "total_sleep_min",
+      "sleep_efficiency_pct",
+      "waso_min",
+      "wake_episode_over_5_min_count"
+    ],
+    "reference_values": [],
+    "required_condition": "if you are also having ongoing sleep difficulty, unusual daytime sleepiness, or trouble concentrating",
+    "do_not_claim": [
+      "Do not diagnose insomnia or infer daytime impairment.",
+      "Do not use professional care as a generic closing sentence.",
+      "Do not recommend medication or a treatment protocol."
+    ]
+  }
+]

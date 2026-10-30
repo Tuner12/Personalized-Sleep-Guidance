@@ -1,0 +1,24 @@
+# Guidance-only SFT (P -> R baseline), Qwen3.5-0.8B, seed 2 of 3.
+# Paper: Section 3.2 and Appendix "Training hyperparameters".
+model: Qwen/Qwen3.5-0.8B
+
+data:
+  train_file: outputs/sft/guidance_only/train.jsonl
+  task: guidance_only_sft
+
+training:
+  output_dir: outputs/checkpoints/qwen3.5-0.8b/guidance_only_sft_seed2
+  seed: 43
+  max_length: 32768
+  num_train_epochs: 5.0
+  per_device_train_batch_size: 1
+  effective_batch_size: 16
+  learning_rate: 2e-05
+  weight_decay: 0.1
+  warmup_ratio: 0.05
+  lr_scheduler_type: cosine
+  max_grad_norm: 1.0
+  logging_steps: 5
+  save_steps: 50
+  save_total_limit: 4
+  report_to: none

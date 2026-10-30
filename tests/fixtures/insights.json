@@ -1,0 +1,9182 @@
+{
+ "12311abdedeeb18f8e24f0319899d5cccee953f5c7f2bed2c76f77a0ad77a9da": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 360.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 360.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 390.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 390.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 390.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 92.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 92.0,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 92.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 360.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 390.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 390.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 390.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 92.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 92.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 92.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 360.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 390.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 92.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 92.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 92.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 92.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 92.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 92.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 92.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 92.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 360.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 390.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 92.0,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   }
+  ]
+ },
+ "2066efd61c3f2fed74c5bdc576fc7e6506a80b8199be2a45c5eafe11e31421cc": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 450.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 510.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 88.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 88.0,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 88.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 88.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 88.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 88.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 450.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 510.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 88.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 450.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 510.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 88.0,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 30.0,
+    "maximum": null,
+    "mean": null,
+    "median": 1380.0,
+    "metric_id": "sleep_onset_clock_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "clock_minute"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 30.0,
+    "maximum": null,
+    "mean": null,
+    "median": 420.0,
+    "metric_id": "final_wake_clock_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "clock_minute"
+   }
+  ]
+ },
+ "3e3c481eadbc1b5706cd698cb6a70c4d363aa751cdfa766d0c747d044059965d": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 450.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 510.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 88.2,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 88.2,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 88.2,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 88.2,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 88.2,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 88.2,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 450.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 510.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 88.2,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 450.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 510.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 88.2,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 50.0,
+    "maximum": null,
+    "mean": null,
+    "median": 1380.0,
+    "metric_id": "sleep_onset_clock_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "clock_minute"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 100.0,
+    "maximum": null,
+    "mean": null,
+    "median": 420.0,
+    "metric_id": "final_wake_clock_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "clock_minute"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 20.0,
+    "maximum": null,
+    "mean": null,
+    "median": 180.0,
+    "metric_id": "sleep_midpoint_clock_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "clock_minute"
+   }
+  ]
+ },
+ "4e5a9148e7e53679256c20c8d755b9ed703d3efaeb364fbee9f4b4041c86e323": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 360.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 360.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 480.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 480.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 480.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 75.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 75.0,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 75.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 120.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 120.0,
+    "metric_id": "waso_min",
+    "prior_7_nights": {
+     "center": 120.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 360.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 480.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 480.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 480.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 75.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 75.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 75.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   },
+   {
+    "earlier_history": {
+     "center": 120.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "waso_min",
+    "previous_7_nights": {
+     "center": 120.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 120.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 360.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 480.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 75.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 75.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 75.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 75.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 75.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 75.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 75.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 75.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "waso_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 120.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 120.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 120.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 120.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 120.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 120.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 120.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 120.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 360.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 480.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 75.0,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 120.0,
+    "metric_id": "waso_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   }
+  ]
+ },
+ "5001d20b287b5b229c0f0db046eb6da1547ab642eb73bf47c52a952f0c9b0c58": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 420.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 420.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 420.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 500.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 500.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 500.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 84.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 84.0,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 84.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 80.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 80.0,
+    "metric_id": "waso_min",
+    "prior_7_nights": {
+     "center": 80.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 420.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 420.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 420.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 500.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 500.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 500.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 84.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 84.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 84.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   },
+   {
+    "earlier_history": {
+     "center": 80.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "waso_min",
+    "previous_7_nights": {
+     "center": 80.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 80.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 420.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 500.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 500.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 500.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 500.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 500.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 500.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 500.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 500.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 84.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 84.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 84.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 84.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 84.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 84.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 84.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 84.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "waso_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 80.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 420.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 500.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 84.0,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 80.0,
+    "metric_id": "waso_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   }
+  ]
+ },
+ "589aa0b9b3929bc00a6be6b1cec2af93998409386624b80245e6a12b00d4cc73": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 480.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 480.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 480.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 540.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 540.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 540.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 88.9,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 88.9,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 88.9,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 60.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 60.0,
+    "metric_id": "waso_min",
+    "prior_7_nights": {
+     "center": 60.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 480.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 480.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 480.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 540.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 540.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 540.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 88.9,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 88.9,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 88.9,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   },
+   {
+    "earlier_history": {
+     "center": 60.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "waso_min",
+    "previous_7_nights": {
+     "center": 60.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 60.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 480.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 480.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 540.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 88.9,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 88.9,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 88.9,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 88.9,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 88.9,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 88.9,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 88.9,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 88.9,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "waso_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 60.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 60.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 60.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 60.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 60.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 60.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 60.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 60.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 480.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 540.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 88.9,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 60.0,
+    "metric_id": "waso_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   }
+  ]
+ },
+ "60b8a977622da7e65a50da7067b5727839268426740895fa2af38da724091ae1": {
+  "case_id": "case_stage1",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 360.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 360.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 390.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 390.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 390.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 360.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 390.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 390.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 390.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 360.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 390.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 390.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": null,
+    "maximum": null,
+    "mean": null,
+    "median": 360.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": null,
+    "maximum": null,
+    "mean": null,
+    "median": 390.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   }
+  ]
+ },
+ "62c9e7088acff04451de1609dc4f24dca0b3322952d03dcb5be40833497daedb": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 360.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 360.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 450.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 80.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 80.0,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 80.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 50.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 50.0,
+    "metric_id": "waso_min",
+    "prior_7_nights": {
+     "center": 50.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 360.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 80.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 80.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 80.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   },
+   {
+    "earlier_history": {
+     "center": 50.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "waso_min",
+    "previous_7_nights": {
+     "center": 50.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 50.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 360.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 450.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 80.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 80.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "waso_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 50.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 50.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 50.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 50.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 50.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 50.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 50.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 50.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 360.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 450.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 80.0,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 50.0,
+    "metric_id": "waso_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   }
+  ]
+ },
+ "645aa645c5e95db4f423d497912596b71ed3f791c61440aa01bd46848b6226ef": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 450.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 510.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 88.2,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 88.2,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 88.2,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 35.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 35.0,
+    "metric_id": "waso_min",
+    "prior_7_nights": {
+     "center": 35.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 88.2,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 88.2,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 88.2,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   },
+   {
+    "earlier_history": {
+     "center": 35.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "waso_min",
+    "previous_7_nights": {
+     "center": 35.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 35.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 450.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 510.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 88.2,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "waso_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 35.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 450.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 510.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 88.2,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 35.0,
+    "metric_id": "waso_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   }
+  ]
+ },
+ "67f637f7707be8debec7a7bc488075841a7736a77710a4d34cee92727cd9bafc": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 450.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 510.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 88.2,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 88.2,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 88.2,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 0.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 0.0,
+    "metric_id": "minute_to_fall_asleep",
+    "prior_7_nights": {
+     "center": 0.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 88.2,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 88.2,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 88.2,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   },
+   {
+    "earlier_history": {
+     "center": 0.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "minute_to_fall_asleep",
+    "previous_7_nights": {
+     "center": 0.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 0.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 450.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 510.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 88.2,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "minute_to_fall_asleep",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 0.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 0.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 0.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 0.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 0.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 0.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 0.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 0.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 450.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 510.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 88.2,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 0.0,
+    "metric_id": "minute_to_fall_asleep",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   }
+  ]
+ },
+ "7bb55c8a9a636dffe94f02a8c86636fd263d5294d79be43dcd4a169a9da8f4f9": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 484.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 484.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 484.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 540.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 540.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 540.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 89.6,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 89.6,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 89.6,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 484.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 484.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 484.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 540.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 540.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 540.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 89.6,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 89.6,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 89.6,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 484.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 484.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 484.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 484.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 484.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 484.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 484.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 484.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 540.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 89.6,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 89.6,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 89.6,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 89.6,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 89.6,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 89.6,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 89.6,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 89.6,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 484.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 540.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 89.6,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 11.0,
+    "maximum": null,
+    "mean": null,
+    "median": 1278.5,
+    "metric_id": "sleep_onset_clock_min",
+    "minimum": null,
+    "n": 29,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "clock_minute"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 26.0,
+    "maximum": null,
+    "mean": null,
+    "median": 378.5,
+    "metric_id": "final_wake_clock_min",
+    "minimum": null,
+    "n": 29,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "clock_minute"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 14.75,
+    "maximum": null,
+    "mean": null,
+    "median": 107.0,
+    "metric_id": "sleep_midpoint_clock_min",
+    "minimum": null,
+    "n": 29,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "clock_minute"
+   }
+  ]
+ },
+ "8488e73cfc34775ecfad8260c5bf4b97091e8ec34b6e0e546118c0c0fcc4c9e8": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 450.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 510.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 88.2,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 88.2,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 88.2,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 42.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 42.0,
+    "metric_id": "minute_to_fall_asleep",
+    "prior_7_nights": {
+     "center": 42.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 88.2,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 88.2,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 88.2,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   },
+   {
+    "earlier_history": {
+     "center": 42.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "minute_to_fall_asleep",
+    "previous_7_nights": {
+     "center": 42.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 42.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 450.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 510.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 88.2,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 88.2,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "minute_to_fall_asleep",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 42.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 42.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 42.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 42.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 42.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 42.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 42.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 42.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 450.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 510.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 88.2,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 42.0,
+    "metric_id": "minute_to_fall_asleep",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   }
+  ]
+ },
+ "912c308de16b76fcd258b28d19d45c325fa98c056b99efbf4fd25cb14952084a": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 450.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 510.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 88.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 88.0,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 88.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 88.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 88.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 88.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 450.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 510.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 88.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 88.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 450.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 510.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 88.0,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 30.0,
+    "maximum": null,
+    "mean": null,
+    "median": 1380.0,
+    "metric_id": "sleep_onset_clock_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "clock_minute"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 30.0,
+    "maximum": null,
+    "mean": null,
+    "median": 420.0,
+    "metric_id": "final_wake_clock_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "clock_minute"
+   }
+  ]
+ },
+ "b1f70cbae945d7adcfb2494ab12c373b3643ea23dd6f0584828e70475817b475": {
+  "case_id": "case_recent_contraction",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 470.0,
+     "end_date": "2026-01-13",
+     "iqr": 142.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": -142.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 328.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 328.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 528.0,
+     "end_date": "2026-01-13",
+     "iqr": 116.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": -116.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 412.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 412.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 89.2,
+     "end_date": "2026-01-13",
+     "iqr": 0.6,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.6,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 89.8,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 89.8,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 470.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 470.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 328.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": -142.0,
+    "recent_minus_previous": -142.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 528.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 528.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 412.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": -116.0,
+    "recent_minus_previous": -116.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 89.2,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 89.2,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 89.8,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.6,
+    "recent_minus_previous": 0.6,
+    "unit": "%"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 470.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 470.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 470.0,
+      "end_date": "2026-01-09",
+      "iqr": 71.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 470.0,
+      "end_date": "2026-01-10",
+      "iqr": 142.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 328.0,
+      "end_date": "2026-01-11",
+      "iqr": 142.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 328.0,
+      "end_date": "2026-01-12",
+      "iqr": 71.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 328.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 328.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 528.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 528.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 528.0,
+      "end_date": "2026-01-09",
+      "iqr": 58.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 528.0,
+      "end_date": "2026-01-10",
+      "iqr": 116.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 412.0,
+      "end_date": "2026-01-11",
+      "iqr": 116.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 412.0,
+      "end_date": "2026-01-12",
+      "iqr": 58.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 412.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 412.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 89.2,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 89.2,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 89.2,
+      "end_date": "2026-01-09",
+      "iqr": 0.3,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 89.2,
+      "end_date": "2026-01-10",
+      "iqr": 0.6,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 89.8,
+      "end_date": "2026-01-11",
+      "iqr": 0.6,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 89.8,
+      "end_date": "2026-01-12",
+      "iqr": 0.3,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 89.8,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 89.8,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 71.0,
+    "maximum": null,
+    "mean": null,
+    "median": 399.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 58.0,
+    "maximum": null,
+    "mean": null,
+    "median": 470.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.3,
+    "maximum": null,
+    "mean": null,
+    "median": 89.5,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   }
+  ]
+ },
+ "be22e69907b684b964d72aa5f6b72c804ea0e57c38cc8d88e45d96460fa00781": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 419.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 419.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 419.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 430.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 430.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 430.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 97.4,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 97.4,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 97.4,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 419.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 419.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 419.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 430.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 430.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 430.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 97.4,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 97.4,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 97.4,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 419.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 419.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 419.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 419.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 419.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 419.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 419.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 419.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 430.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 430.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 430.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 430.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 430.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 430.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 430.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 430.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 97.4,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 97.4,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 97.4,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 97.4,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 97.4,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 97.4,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 97.4,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 97.4,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 419.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 430.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 97.4,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   }
+  ]
+ },
+ "c9252005291aa78b5e244c2f0160af8c8d7b386fda685cb2f3b06d108e8dd5b8": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 360.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 360.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 450.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 90.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 90.0,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 90.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 360.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 360.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 90.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 90.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 90.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 360.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 360.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 450.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 90.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 90.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 90.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 90.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 90.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 90.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 90.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 90.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 360.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 450.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 90.0,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   }
+  ]
+ },
+ "d8a95a9c206d20260f48f9f96222265d95eeea9b319bcb071066128e87da17b7": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 450.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 540.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 540.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 540.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 83.3,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 83.3,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 83.3,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 450.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 540.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 540.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 540.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 83.3,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 83.3,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 83.3,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 450.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 450.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 540.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 540.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 83.3,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 83.3,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 83.3,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 83.3,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 83.3,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 83.3,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 83.3,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 83.3,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 450.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 540.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 83.3,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   }
+  ]
+ },
+ "ed3bf9abd193613b58318e2a16d892a303d74cb8f6cceb0c6b81fe9b5a54e650": {
+  "case_id": "case_router",
+  "fluctuation_points": [],
+  "latest_night_context": [
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 420.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 420.0,
+    "metric_id": "total_sleep_min",
+    "prior_7_nights": {
+     "center": 420.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 510.0,
+    "metric_id": "time_in_bed_min",
+    "prior_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 82.4,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 82.4,
+    "metric_id": "sleep_efficiency_pct",
+    "prior_7_nights": {
+     "center": 82.4,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "%"
+   },
+   {
+    "day_index": 14,
+    "earlier_history": {
+     "center": 35.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 13,
+     "start_date": "2026-01-01"
+    },
+    "latest_minus_earlier_history": 0.0,
+    "latest_minus_prior_7": 0.0,
+    "latest_value": 35.0,
+    "metric_id": "waso_min",
+    "prior_7_nights": {
+     "center": 35.0,
+     "end_date": "2026-01-13",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-07"
+    },
+    "sleep_date": "2026-01-14",
+    "unit": "min"
+   }
+  ],
+  "recent_7_night_comparison": [
+   {
+    "earlier_history": {
+     "center": 420.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "total_sleep_min",
+    "previous_7_nights": {
+     "center": 420.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 420.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "time_in_bed_min",
+    "previous_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 510.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   },
+   {
+    "earlier_history": {
+     "center": 82.4,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "sleep_efficiency_pct",
+    "previous_7_nights": {
+     "center": 82.4,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 82.4,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "%"
+   },
+   {
+    "earlier_history": {
+     "center": 35.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "metric_id": "waso_min",
+    "previous_7_nights": {
+     "center": 35.0,
+     "end_date": "2026-01-07",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-01"
+    },
+    "recent_7_nights": {
+     "center": 35.0,
+     "end_date": "2026-01-14",
+     "iqr": 0.0,
+     "mad": 0.0,
+     "n": 7,
+     "start_date": "2026-01-08"
+    },
+    "recent_minus_earlier_history": 0.0,
+    "recent_minus_previous": 0.0,
+    "unit": "min"
+   }
+  ],
+  "rolling_7_night_trajectory": [
+   {
+    "metric_id": "total_sleep_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 420.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 420.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "time_in_bed_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 510.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 510.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "sleep_efficiency_pct",
+    "unit": "%",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 82.4,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 82.4,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 82.4,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 82.4,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 82.4,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 82.4,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 82.4,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 82.4,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   },
+   {
+    "metric_id": "waso_min",
+    "unit": "min",
+    "window_size_nights": 7,
+    "windows": [
+     {
+      "center": 35.0,
+      "end_date": "2026-01-07",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-01"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-08",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-02"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-09",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-03"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-10",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-04"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-11",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-05"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-12",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-06"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-13",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-07"
+     },
+     {
+      "center": 35.0,
+      "end_date": "2026-01-14",
+      "iqr": 0.0,
+      "mad": 0.0,
+      "n": 7,
+      "start_date": "2026-01-08"
+     }
+    ]
+   }
+  ],
+  "whole_record_summary": [
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 420.0,
+    "metric_id": "total_sleep_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 510.0,
+    "metric_id": "time_in_bed_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 82.4,
+    "metric_id": "sleep_efficiency_pct",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "%"
+   },
+   {
+    "caveats": [],
+    "first_value": null,
+    "iqr": null,
+    "last_value": null,
+    "mad": 0.0,
+    "maximum": null,
+    "mean": null,
+    "median": 35.0,
+    "metric_id": "waso_min",
+    "minimum": null,
+    "n": 14,
+    "p10": null,
+    "p90": null,
+    "sd": null,
+    "status": "computed",
+    "unit": "min"
+   }
+  ]
+ }
+}

@@ -1,0 +1,233 @@
+[
+ {
+  "metric_id": "total_sleep_min",
+  "unit": "min",
+  "is_clock": false,
+  "definition": "Minutes asleep in the night's main sleep period.",
+  "caveats": []
+ },
+ {
+  "metric_id": "time_in_bed_min",
+  "unit": "min",
+  "is_clock": false,
+  "definition": "Minutes in bed for the night's main sleep period.",
+  "caveats": []
+ },
+ {
+  "metric_id": "waso_min",
+  "unit": "min",
+  "is_clock": false,
+  "definition": "Device-estimated wake after sleep onset: for stage-scored logs, the total of the wake stage.",
+  "caveats": [
+   "WASO is estimated from the source wake-stage total and depends on automated sleep/wake classification; it is not polysomnographic WASO."
+  ]
+ },
+ {
+  "metric_id": "minute_to_fall_asleep",
+  "unit": "min",
+  "is_clock": false,
+  "definition": "Recorded sleep latency in minutes.",
+  "caveats": [
+   "minute_to_fall_asleep is the source sleep-latency field, but automatically detected sleep logs commonly contain zero; do not interpret zero as proof that sleep began immediately."
+  ]
+ },
+ {
+  "metric_id": "minute_after_wakeup",
+  "unit": "min",
+  "is_clock": false,
+  "definition": "Minutes remaining in the sleep record after the final wake.",
+  "caveats": [
+   "minute_after_wakeup is time remaining in the sleep record after final wake. It is not WASO and not a measure of repeated nighttime awakenings."
+  ]
+ },
+ {
+  "metric_id": "count_deep",
+  "unit": "count/night",
+  "is_clock": false,
+  "definition": "Number of entries into the deep stage during the night.",
+  "caveats": [
+   "Sleep-stage fields are device estimates. Describe them only as recorded stage estimates; do not use them for diagnosis or as a behavior target."
+  ]
+ },
+ {
+  "metric_id": "count_light",
+  "unit": "count/night",
+  "is_clock": false,
+  "definition": "Number of entries into the light stage during the night.",
+  "caveats": [
+   "Sleep-stage fields are device estimates. Describe them only as recorded stage estimates; do not use them for diagnosis or as a behavior target."
+  ]
+ },
+ {
+  "metric_id": "count_rem",
+  "unit": "count/night",
+  "is_clock": false,
+  "definition": "Number of entries into the REM stage during the night.",
+  "caveats": [
+   "Sleep-stage fields are device estimates. Describe them only as recorded stage estimates; do not use them for diagnosis or as a behavior target."
+  ]
+ },
+ {
+  "metric_id": "count_wake",
+  "unit": "count/night",
+  "is_clock": false,
+  "definition": "Number of entries into the wake stage during the night.",
+  "caveats": [
+   "count_wake counts entries into the recorded wake stage. It is not the National Sleep Foundation measure of awakenings lasting more than five minutes."
+  ]
+ },
+ {
+  "metric_id": "wake_episode_count",
+  "unit": "count/night",
+  "is_clock": false,
+  "definition": "Number of individual wake intervals in the night.",
+  "caveats": [
+   "Wake episodes are summarized from the retained wake intervals. Missing interval detail remains missing, and recorded episodes are not self-reported awakenings."
+  ]
+ },
+ {
+  "metric_id": "wake_episode_over_5_min_count",
+  "unit": "count/night",
+  "is_clock": false,
+  "definition": "Number of wake intervals longer than 5 minutes.",
+  "caveats": [
+   "Wake episodes are summarized from the retained wake intervals. Missing interval detail remains missing, and recorded episodes are not self-reported awakenings."
+  ]
+ },
+ {
+  "metric_id": "longest_wake_episode_min",
+  "unit": "min",
+  "is_clock": false,
+  "definition": "Duration of the longest wake interval.",
+  "caveats": [
+   "Wake episodes are summarized from the retained wake intervals. Missing interval detail remains missing, and recorded episodes are not self-reported awakenings."
+  ]
+ },
+ {
+  "metric_id": "wake_episode_total_min",
+  "unit": "min",
+  "is_clock": false,
+  "definition": "Total duration of all wake intervals.",
+  "caveats": [
+   "Wake episodes are summarized from the retained wake intervals. Missing interval detail remains missing, and recorded episodes are not self-reported awakenings."
+  ]
+ },
+ {
+  "metric_id": "sleep_efficiency_pct",
+  "unit": "%",
+  "is_clock": false,
+  "definition": "total_sleep_min / time_in_bed_min x 100 (do not use a device-reported efficiency field).",
+  "caveats": [
+   "Sleep efficiency is transparently calculated as total sleep divided by time in bed; the source device's separate efficiency field is retained only for discrepancy checks."
+  ]
+ },
+ {
+  "metric_id": "sleep_onset_clock_min",
+  "unit": "clock_minute",
+  "is_clock": true,
+  "definition": "Clock time of sleep onset = sleep-period start + minute_to_fall_asleep (missing latency counts as 0).",
+  "caveats": []
+ },
+ {
+  "metric_id": "final_wake_clock_min",
+  "unit": "clock_minute",
+  "is_clock": true,
+  "definition": "Clock time of final wake = sleep-period end - minute_after_wakeup (missing value counts as 0).",
+  "caveats": []
+ },
+ {
+  "metric_id": "sleep_midpoint_clock_min",
+  "unit": "clock_minute",
+  "is_clock": true,
+  "definition": "Clock time halfway between sleep onset and final wake.",
+  "caveats": []
+ },
+ {
+  "metric_id": "deep_sleep_min",
+  "unit": "min",
+  "is_clock": false,
+  "definition": "Minutes in the deep stage.",
+  "caveats": [
+   "Sleep-stage fields are device estimates. Describe them only as recorded stage estimates; do not use them for diagnosis or as a behavior target."
+  ]
+ },
+ {
+  "metric_id": "light_sleep_min",
+  "unit": "min",
+  "is_clock": false,
+  "definition": "Minutes in the light stage.",
+  "caveats": [
+   "Sleep-stage fields are device estimates. Describe them only as recorded stage estimates; do not use them for diagnosis or as a behavior target."
+  ]
+ },
+ {
+  "metric_id": "rem_sleep_min",
+  "unit": "min",
+  "is_clock": false,
+  "definition": "Minutes in the REM stage.",
+  "caveats": [
+   "Sleep-stage fields are device estimates. Describe them only as recorded stage estimates; do not use them for diagnosis or as a behavior target."
+  ]
+ },
+ {
+  "metric_id": "wake_stage_min",
+  "unit": "min",
+  "is_clock": false,
+  "definition": "Minutes in the wake stage.",
+  "caveats": [
+   "Sleep-stage fields are device estimates. Describe them only as recorded stage estimates; do not use them for diagnosis or as a behavior target."
+  ]
+ },
+ {
+  "metric_id": "steps",
+  "unit": "steps/day",
+  "is_clock": false,
+  "definition": "Daily step total for the calendar day of the sleep date.",
+  "caveats": []
+ },
+ {
+  "metric_id": "sedentary_minutes",
+  "unit": "min/day",
+  "is_clock": false,
+  "definition": "Daily sedentary minutes for the calendar day of the sleep date.",
+  "caveats": [
+   "Activity-level minutes use vendor categories and are not a direct conversion to a clinical or public-health activity dose."
+  ]
+ },
+ {
+  "metric_id": "lightly_active_minutes",
+  "unit": "min/day",
+  "is_clock": false,
+  "definition": "Daily lightly active minutes.",
+  "caveats": [
+   "Activity-level minutes use vendor categories and are not a direct conversion to a clinical or public-health activity dose."
+  ]
+ },
+ {
+  "metric_id": "fairly_active_minutes",
+  "unit": "min/day",
+  "is_clock": false,
+  "definition": "Daily fairly active minutes.",
+  "caveats": [
+   "Activity-level minutes use vendor categories and are not a direct conversion to a clinical or public-health activity dose."
+  ]
+ },
+ {
+  "metric_id": "very_active_minutes",
+  "unit": "min/day",
+  "is_clock": false,
+  "definition": "Daily very active minutes.",
+  "caveats": [
+   "Activity-level minutes use vendor categories and are not a direct conversion to a clinical or public-health activity dose."
+  ]
+ },
+ {
+  "metric_id": "active_minutes",
+  "unit": "min/day",
+  "is_clock": false,
+  "definition": "fairly_active_minutes + very_active_minutes (missing only if both are missing).",
+  "caveats": [
+   "Activity-level minutes use vendor categories and are not a direct conversion to a clinical or public-health activity dose."
+  ]
+ }
+]

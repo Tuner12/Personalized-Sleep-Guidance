@@ -1,0 +1,1623 @@
+{
+  "release_id": "evidence-sources-1.0",
+  "criteria_id": "evidence-criteria-1.0",
+  "all_sources_verified": true,
+  "all_dossiers_verified": true,
+  "dossiers": [
+    {
+      "dossier_id": "behavioral-sleep-extension",
+      "title": "Behavioral sleep extension",
+      "claim_summary": "A systematic review and meta-analysis found that behavioral sleep-extension interventions increased sleep duration versus control or baseline; direct sleep-schedule interventions had larger effects than indirect educational or coaching approaches.",
+      "evidence_basis": "Behavioral sleep-extension interventions increase sleep duration on average",
+      "population": "Studies included adults, college students, and children aged 12+; 19 enrolled adults",
+      "applicability": "Conditional support for adults in the target program with a stable 14+ night pattern of short total sleep or limited time in bed; supports creating more sleep opportunity, not a diagnosis or a promised health outcome",
+      "limitations": [
+        "The review pooled heterogeneous populations, intervention components, and study designs; heterogeneity was high",
+        "Not every included study was an adult randomized trial, so the action must be phrased cautiously for adults",
+        "The review establishes sleep-duration change, not a guaranteed cardiometabolic, mood, or performance benefit",
+        "The wearable-only schema cannot identify why sleep opportunity is limited or whether a clinical sleep disorder is present"
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "time_in_bed_min"
+      ],
+      "supported_outcome_dimensions": [
+        "total_sleep_min"
+      ],
+      "evidence_level": "guidance",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "baron-2021-sleep-extension",
+        "title": "Behavioral interventions to extend sleep duration: A systematic review and meta-analysis",
+        "organization": "Sleep Medicine Reviews (Baron et al.)",
+        "year": 2021,
+        "url": "https://doi.org/10.1016/j.smrv.2021.101532",
+        "locator": "Abstract/Results: 42 studies from 14 countries; two-arm pooled SMD 0.80 (95% CI 0.28-1.31); direct schedule interventions had larger effects",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "regularity-is-a-health-dimension",
+      "title": "Sleep regularity as a health dimension",
+      "claim_summary": "The AASM lists regularity alongside duration, timing, quality, and absence of sleep disorders as a constituent dimension of healthy sleep.",
+      "evidence_basis": "Regularity is framed as a necessary dimension of healthy sleep",
+      "population": "Public-health position statement; no single study population",
+      "applicability": "Supports treating regularity as a dimension worth reporting; does not license a quantified regularity target",
+      "limitations": [
+        "No graded recommendation or numeric threshold for regularity",
+        "Does not establish that intervening on regularity improves outcomes"
+      ],
+      "case_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min"
+      ],
+      "evidence_level": "explanation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "aasm-2021-position",
+        "title": "Sleep is essential to health: an American Academy of Sleep Medicine position statement",
+        "organization": "American Academy of Sleep Medicine",
+        "year": 2021,
+        "url": "https://doi.org/10.5664/jcsm.9476",
+        "locator": "INTRODUCTION: 'Healthy sleep requires adequate sleep duration, appropriate timing, regularity, the absence of sleep disorders, and good quality'",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "sleep-regularity-mortality",
+      "title": "Sleep regularity and mortality association",
+      "claim_summary": "Lower sleep regularity, measured by the accelerometer-derived Sleep Regularity Index, is associated with higher all-cause, cardiovascular, and cancer mortality risk.",
+      "evidence_basis": "Lower regularity is associated with higher mortality risk, non-linearly",
+      "population": "88,975 UK Biobank participants, mean age 62 (SD 8), 56% female, 7.1-year mean follow-up",
+      "applicability": "Mean age 62 exceeds the 18-64 target range at the older end; extrapolation to younger adults must be stated as such",
+      "limitations": [
+        "Observational design; authors state it is unclear whether interventions that improve regularity extend lifespan",
+        "Residual confounding cannot be excluded",
+        "Sleep-wake states inferred from accelerometry, with misclassification versus polysomnography",
+        "No sleep diaries; algorithm identified only the main sleep period and did not detect naps"
+      ],
+      "case_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min"
+      ],
+      "evidence_level": "explanation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "cribb-2023-elife",
+        "title": "Sleep regularity and mortality: a prospective analysis in the UK Biobank",
+        "organization": "eLife (Cribb et al., Monash University)",
+        "year": 2023,
+        "url": "https://doi.org/10.7554/eLife.88359.3",
+        "locator": "Figure 1 A/B/C adjusted hazard ratios; SRI 5th percentile all-cause HR 1.53 (95% CI 1.41-1.66)",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "sleep-schedule-consistency-experiment",
+      "title": "Reversible sleep-schedule consistency experiment",
+      "claim_summary": "A National Sleep Foundation expert panel reached formal consensus that daily regularity in sleep timing is important for health and performance, after reviewing 63 full-text publications. The statement supports a cautious schedule-consistency experiment, not a universal timing target or a claim that a weekday-weekend gap is a disorder.",
+      "evidence_basis": "More regular sleep timing is endorsed as an important component of sleep health and performance",
+      "population": "Adults; formal consensus informed by a systematic literature review and expert panel",
+      "applicability": "When repeated reportable weekday-weekend timing differences are present, supports one low-risk, reversible attempt to make wake times or the sleep window more consistent while observing the pattern. When weekdays are shorter and weekends are longer, preserving sleep opportunity takes priority over merely shrinking the timing gap. It does not establish social jetlag, circadian phase, a disease, or an individual outcome.",
+      "limitations": [
+        "The underlying evidence is predominantly observational, so it does not establish the effect size of changing one person's schedule",
+        "The consensus does not provide a universal hour threshold, bedtime, wake time, or rate of adjustment",
+        "Calendar weekday versus weekend is only a proxy for workdays versus free days in the current data",
+        "The panel also considered weekend catch-up sleep relevant when sleep is insufficient on weekdays, so reducing weekend sleep is not an appropriate default response to every timing gap",
+        "A timing difference can reflect ordinary commitments and does not diagnose circadian misalignment"
+      ],
+      "case_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min",
+        "total_sleep_min"
+      ],
+      "supported_outcome_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min"
+      ],
+      "evidence_level": "guidance",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not label a calendar weekday-weekend difference as social jetlag or a circadian disorder",
+        "Do not claim that schedule regularization will improve health, sleep duration, sleep efficiency, alertness, or disease risk for this individual",
+        "Do not use this card when the observed weekday-weekend contrast is small or not reportable",
+        "Do not turn it into a generic sleep-hygiene checklist"
+      ],
+      "source": {
+        "source_id": "nsf-2023-regularity-consensus",
+        "title": "The importance of sleep regularity: a consensus statement of the National Sleep Foundation sleep timing and variability panel",
+        "organization": "National Sleep Foundation sleep timing and variability panel (Sletten et al.)",
+        "year": 2023,
+        "url": "https://doi.org/10.1016/j.sleh.2023.07.016",
+        "locator": "Abstract/Results: 63 publications informed a modified Delphi RAND/UCLA consensus process; panel consensus addressed daily sleep-timing regularity and weekday/workday catch-up sleep",
+        "source_tier": "formal_consensus"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "timing-consistency-review",
+      "title": "Sleep timing and consistency context",
+      "claim_summary": "A systematic review found later sleep timing and greater sleep variability were generally associated with adverse health outcomes, with GRADE certainty ranging from very low to moderate.",
+      "evidence_basis": "Greater variability and later timing are associated with worse outcomes",
+      "population": "41 articles, 92,340 adults aged 18+ across 14 countries, 14 health outcome categories",
+      "applicability": "Covers the target age range; evidence base is observational so wording must remain associational",
+      "limitations": [
+        "Author-assessed GRADE certainty very low to moderate across designs and outcomes",
+        "Most studies reported linear associations, so no threshold for excessive variability can be defined",
+        "63% of included studies relied on self-reported sleep"
+      ],
+      "case_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min"
+      ],
+      "evidence_level": "explanation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "chaput-2020-apnm",
+        "title": "Sleep timing, sleep consistency, and health in adults: a systematic review",
+        "organization": "Applied Physiology, Nutrition, and Metabolism (Chaput et al.)",
+        "year": 2020,
+        "url": "https://doi.org/10.1139/apnm-2020-0032",
+        "locator": "Abstract GRADE statement and Conclusion; PROSPERO CRD42019119534",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "regularity-null-results",
+      "title": "Limits of regularity evidence",
+      "claim_summary": "A systematic review of sleep variability and cardiometabolic health found predominantly null associations for social jetlag with BMI and insulin resistance, and inconsistent cardiovascular results.",
+      "evidence_basis": "Null or inconsistent for several cardiometabolic outcomes",
+      "population": "63 studies of adult and mixed populations with cardiometabolic outcomes",
+      "applicability": "Boundary for regularity interpretation: effects depend heavily on the regularity index and outcome, so do not present any regularity association as universal or settled",
+      "limitations": [
+        "Authors describe findings across outcomes as mixed and inconsistent",
+        "Different regularity metrics yield divergent conclusions, so metric choice materially changes the result"
+      ],
+      "case_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "zhu-2022-smr",
+        "title": "Associations between sleep variability and cardiometabolic health: A systematic review",
+        "organization": "Sleep Medicine Reviews (Zhu, Reutrakul et al.)",
+        "year": 2022,
+        "url": "https://doi.org/10.1016/j.smrv.2022.101688",
+        "locator": "Abstract Results: 13 social-jetlag studies (n=30,519) with nine reporting a null association; insulin resistance null across 5 studies (n=6,416)",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "midpoint-phase-proxy-limit",
+      "title": "Sleep midpoint is not a precise circadian-phase measure",
+      "claim_summary": "Sleep midpoint is the behavioural marker most strongly related to dim light melatonin onset, but 7-day diary or actigraphy midpoint models still show limits of agreement of about plus or minus 1.8 to 1.9 hours, so no method estimates circadian phase precisely.",
+      "evidence_basis": "Constrains interpretation; individual-level precision is insufficient",
+      "population": "72 healthy adults (36 female, 36 male), mean age 23.1 (SD 3.6)",
+      "applicability": "Caps how sleep midpoint may be interpreted: usable as a group-level phase proxy, not as an individual circadian measurement",
+      "limitations": [
+        "Authors conclude no method is precise; fixed-interval methods carry proportional bias",
+        "Sample is young healthy adults around age 23, not the full 18-64 range",
+        "Single DLMO reference measurement",
+        "Authors state suitability is limited to research purposes, not individual clinical interpretation"
+      ],
+      "case_dimensions": [
+        "sleep_period_midpoint_clock_min"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "reiter-2020-chronobiol",
+        "title": "Finding DLMO: estimating dim light melatonin onset from sleep markers derived from questionnaires, diaries and actigraphy",
+        "organization": "Chronobiology International (Reiter, Sargent, Roach)",
+        "year": 2020,
+        "url": "https://doi.org/10.1080/07420528.2020.1809443",
+        "locator": "Abstract Results and Conclusion: 'none of the methods provided precise estimates of DLMO'",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "consumer-stage-accuracy-limit",
+      "title": "Consumer sleep-stage accuracy limits",
+      "claim_summary": "Across six consumer wrist wearables, four-state epoch-by-epoch agreement with polysomnography was only fair to moderate (Cohen's kappa 0.21-0.53; Fitbit Sense 0.42, Charge 5 0.41), and wake specificity ranged from 29 to 52 percent.",
+      "evidence_basis": "Unfavourable to stage-level accuracy; wake and light sleep worst",
+      "population": "62 adults (52 male, 10 female), mean age 46.0 (SD 12.6), single laboratory night, recruited from a sleep-centre population",
+      "applicability": "Governs how far any stage metric may be interpreted; sleep-centre sample limits generalization to healthy community adults",
+      "limitations": [
+        "Validation limited to the 8-hour lights-out window, restricting real-world generalizability",
+        "Single night with no multi-night adaptation",
+        "Proprietary algorithms are updated periodically, undermining cross-study comparability",
+        "Narrow age range and marked sex imbalance (52 male, 10 female)"
+      ],
+      "case_dimensions": [
+        "deep_sleep_min",
+        "light_sleep_min",
+        "rem_sleep_min",
+        "wake_stage_min",
+        "deep_sleep_pct",
+        "light_sleep_pct",
+        "rem_sleep_pct",
+        "wake_stage_pct"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "schyvens-2025-sleepadv",
+        "title": "A performance validation of six commercial wrist-worn wearable sleep-tracking devices for sleep stage scoring compared to polysomnography",
+        "organization": "Sleep Research Society (SLEEP Advances), University of Antwerp",
+        "year": 2025,
+        "url": "https://doi.org/10.1093/sleepadvances/zpaf021",
+        "locator": "Results 'Sleep stages' Tables 8-11; Methods 'Epoch-by-epoch analysis'",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "stage-bias-is-proportional",
+      "title": "Sleep-stage error may scale with stage duration",
+      "claim_summary": "Consumer stage estimation error is proportional rather than constant: devices overestimated shorter light and deep sleep and underestimated longer light and deep sleep, and overestimated short wake times while underestimating long ones.",
+      "evidence_basis": "Magnitude-dependent bias in stage and wake estimates",
+      "population": "53 healthy adults aged 18-30 (31 female, 22 male), screened to exclude cardiac, neurological, psychological, and sleep disorders; one laboratory night",
+      "applicability": "Means stage errors do not cancel out and cannot be corrected with a fixed offset; sample is 18-30, narrower than the 18-64 target",
+      "limitations": [
+        "Single night, so night-to-night variability is unaccounted for",
+        "Sample not racially diverse, and PPG is less accurate in darker skin tones",
+        "All devices experienced software, sync, or fit failures",
+        "Past device upgrades did not improve sensitivity or specificity"
+      ],
+      "case_dimensions": [
+        "deep_sleep_min",
+        "light_sleep_min",
+        "rem_sleep_min",
+        "wake_stage_min",
+        "deep_sleep_pct",
+        "light_sleep_pct",
+        "rem_sleep_pct",
+        "wake_stage_pct"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "sensors-2024-umass",
+        "title": "Evaluating Accuracy in Five Commercial Sleep-Tracking Devices Compared to Research-Grade Actigraphy and Polysomnography",
+        "organization": "Sensors (MDPI), University of Massachusetts",
+        "year": 2024,
+        "url": "https://doi.org/10.3390/s24020635",
+        "locator": "Results 3.5 'Light Sleep', 3.6 'Deep Sleep', 3.7 'REM Sleep'; Section 5 'Limitations'",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "stage-trait-variation",
+      "title": "Sleep stages vary between people",
+      "claim_summary": "Stable trait-like inter-individual differences were found for 17 of 18 polysomnographic sleep variables (intraclass correlations 36-89 percent, highest for slow-wave sleep and NREM delta power), exceeding the group-average effect of 36 hours of sleep deprivation.",
+      "evidence_basis": "Supports person-specific rather than population-target interpretation",
+      "population": "21 screened healthy young adults, 8 laboratory nights with blind scoring",
+      "applicability": "Supports interpreting stage architecture as person-specific; forbids comparing an individual against population stage percentages as a target",
+      "limitations": [
+        "Any independent functional significance of these sleep phenotypes remains undetermined",
+        "Small sample of young adults in a highly controlled laboratory setting",
+        "Sleep variables were not fully independent of one another"
+      ],
+      "case_dimensions": [
+        "deep_sleep_pct",
+        "light_sleep_pct",
+        "rem_sleep_pct",
+        "wake_stage_pct"
+      ],
+      "evidence_level": "explanation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "tucker-2007-jsr",
+        "title": "Trait interindividual differences in the sleep physiology of healthy young adults",
+        "organization": "Journal of Sleep Research",
+        "year": 2007,
+        "url": "https://doi.org/10.1111/j.1365-2869.2007.00594.x",
+        "locator": "Abstract Results: ICC range and slow-wave sleep versus 36-hour sleep-deprivation comparison",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "stage-night-to-night-variability",
+      "title": "Sleep stages vary from night to night",
+      "claim_summary": "Across 470 home nights, night-to-night coefficient of variation was high (0.44-0.58) for N2, N3, sleep latencies, and wake after sleep onset, and low (0.04-0.19) for sleep efficiency, total sleep time, and REM percentage, indicating single-night stage values are unreliable.",
+      "evidence_basis": "Supports multi-night aggregation over single-night interpretation",
+      "population": "94 males self-reporting absence of sleep disorders, five consecutive weeknights at home with a headband EEG monitor",
+      "applicability": "Justifies aggregating over multiple nights and argues against acting on any single night; male-only sample limits sex generalizability",
+      "limitations": [
+        "Authors note night-to-night variability is generally underestimated and under-recognized",
+        "Measured by portable headband EEG rather than laboratory polysomnography",
+        "Weeknights only",
+        "Male-only sample, so sex generalizability is unaddressed"
+      ],
+      "case_dimensions": [
+        "deep_sleep_min",
+        "light_sleep_min",
+        "rem_sleep_min",
+        "wake_stage_min",
+        "waso_min",
+        "sleep_efficiency_pct",
+        "total_sleep_min"
+      ],
+      "evidence_level": "explanation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "sleep-2023-multinight",
+        "title": "Objective multi-night sleep monitoring at home: variability of sleep parameters between nights and implications for the reliability of sleep assessment in clinical trials",
+        "organization": "SLEEP (Sleep Research Society)",
+        "year": 2023,
+        "url": "https://doi.org/10.1093/sleep/zsac319",
+        "locator": "Abstract Results: coefficient-of-variation tiers and minimum nights estimates",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "regularity-window-length",
+      "title": "Window length affects regularity estimates",
+      "claim_summary": "In a 14-day actigraphy study of 41 people undergoing sleep-disorder evaluation, regularity and fragmentation estimates based on fewer than 7 full days showed greater bias and wider agreement limits; the authors recommend at least 7 full days for these measures.",
+      "evidence_basis": "Longer observation windows reduce error in regularity and fragmentation estimates",
+      "population": "41 people undergoing clinical sleep-disorder evaluation with 14 days of actigraphy",
+      "applicability": "Supports the runtime's rule that shorter than 7 days should not be used for stable regularity or fragmentation claims, and that a two-window comparison needs at least 7 nights per window.",
+      "limitations": [
+        "Small clinically referred sample, not a general consumer-wearable cohort",
+        "Examined non-parametric actigraphy rhythm measures rather than this project's exact weekday-weekend contrasts",
+        "Does not establish a health threshold, diagnosis, or action",
+        "The current consumer source differs from research actigraphy"
+      ],
+      "case_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min",
+        "waso_min",
+        "sleep_efficiency_pct"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "lok-2025-regularity-window",
+        "title": "How many days are enough? Sleep-wake timing regularity and fragmentation scores change with the number of days included",
+        "organization": "Journal of Sleep Research (Lok et al.)",
+        "year": 2025,
+        "url": "https://doi.org/10.1111/jsr.14332",
+        "locator": "Abstract: 14-day actigraphy comparison; fewer than 7 days increased bias/variance; minimum 7 full days recommended",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "time-in-bed-field-semantics",
+      "title": "Time-in-bed field semantics",
+      "claim_summary": "Fitbit defines timeInBed as total minutes in bed and minutesAwake as accumulated wake minutes excluding time before sleep onset and after final awakening, and states the efficiency value returned for stages logs should be ignored.",
+      "evidence_basis": "Not applicable",
+      "population": "Not applicable; device field definition",
+      "applicability": "Engineering semantics only; establishes that these fields carry conditional reliability and must not ground a sleep-medicine conclusion",
+      "limitations": [
+        "The efficiency field is valid only for classic logs; using it for stages logs produces systematic error",
+        "Wake periods of three minutes or less are placed in shortData rather than data, so aggregation conventions must be unified explicitly",
+        "infoCode may signal insufficient heart-rate data or a period under three hours, so data quality is not constant",
+        "Mid-sleep wake over one hour splits a log while gaps under one hour may be stitched, affecting cross-day aggregation",
+        "dateOfSleep is the wake date rather than the sleep-onset date",
+        "Legacy Web API scheduled for deprecation in September 2026"
+      ],
+      "case_dimensions": [
+        "time_in_bed_min",
+        "waso_min",
+        "sleep_efficiency_pct"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "fitbit-sleep-api",
+        "title": "Get Sleep Log by Date (Fitbit Web API Reference)",
+        "organization": "Fitbit LLC / Google",
+        "year": 2023,
+        "url": "https://dev.fitbit.com/build/reference/web-api/sleep/get-sleep-log-by-date/",
+        "locator": "Response Description table (timeInBed, minutesAwake, minutesAsleep, infoCode) and Additional Information 'Sleep Efficiency Calculation'",
+        "source_tier": "device_documentation_for_field_semantics_only"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "wake-detection-unreliable",
+      "title": "Wearable wake-detection limits",
+      "claim_summary": "In laboratory polysomnography comparison, a consumer wrist device detected sleep with high sensitivity (0.96) but detected wake with specificity of only 0.61, while overestimating light sleep and underestimating deep sleep.",
+      "evidence_basis": "Devices underestimate wake and overestimate sleep",
+      "population": "44 healthy adults aged 19-61 (26 female), screened to exclude psychiatric and medical conditions",
+      "applicability": "Covers the target age range; establishes that wake-derived fields carry systematic error",
+      "limitations": [
+        "Study was funded by Fitbit, Inc.",
+        "Single laboratory night rather than multi-night home use",
+        "Device model is Charge 2, no longer current, and algorithms have since been updated",
+        "Low wake specificity implies systematic error in Fitbit-estimated WASO",
+        "Authors state further validation is needed in other populations and settings"
+      ],
+      "case_dimensions": [
+        "waso_min",
+        "time_in_bed_min",
+        "sleep_efficiency_pct"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "sri-2018-charge2",
+        "title": "A validation study of Fitbit Charge 2 compared with polysomnography in adults",
+        "organization": "Chronobiology International; SRI International Human Sleep Research Laboratory",
+        "year": 2018,
+        "url": "https://doi.org/10.1080/07420528.2017.1413578",
+        "locator": "Abstract Results: sensitivity 0.96, specificity 0.61; N1+N2 overestimated 34 min; N3 underestimated 24 min",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "sleep-efficiency-denominator",
+      "title": "Sleep-efficiency denominator",
+      "claim_summary": "A methodological review in the AASM journal argues that using time in bed as the sleep efficiency denominator is conceptually problematic because time in bed includes non-sleep activity before onset and after final awakening.",
+      "evidence_basis": "Not applicable",
+      "population": "Not applicable; methodological discussion oriented to insomnia research and practice",
+      "applicability": "Establishes that sleep efficiency values are not comparable across sources, including between device output and research definitions",
+      "limitations": [
+        "Methodological commentary rather than empirical research, and not an official AASM recommendation",
+        "Discussion context is insomnia research and clinical practice, limiting applicability to the target population",
+        "The proposed denominator requires diary items that wearable data cannot supply",
+        "Conflicts with the Fitbit definition, showing sleep efficiency is not directly comparable across sources"
+      ],
+      "case_dimensions": [
+        "sleep_efficiency_pct",
+        "time_in_bed_min"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "jcsm-2016-denominator",
+        "title": "Measuring Sleep Efficiency: What Should the Denominator Be?",
+        "organization": "Journal of Clinical Sleep Medicine (American Academy of Sleep Medicine)",
+        "year": 2016,
+        "url": "https://doi.org/10.5664/jcsm.5498",
+        "locator": "Abstract; proposes sleep efficiency = total sleep time divided by duration of sleep episode",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "insomnia-treatment-clinical-boundary",
+      "title": "Clinical boundary for insomnia treatment",
+      "claim_summary": "The AASM clinical practice guideline recommends multicomponent cognitive behavioural therapy for insomnia in adults with chronic insomnia disorder, a diagnosed clinical population distinct from adults without a sleep-disorder diagnosis.",
+      "evidence_basis": "Supports referral rather than self-directed restriction of time in bed",
+      "population": "Adults with diagnosed chronic insomnia disorder",
+      "applicability": "Hard boundary: the guideline population does not overlap the target population of adults without a sleep-disorder diagnosis, so it may only support referral language and never a sleep-restriction directive",
+      "limitations": [
+        "Guideline population is adults with diagnosed chronic insomnia disorder, which does not overlap the target population",
+        "Sleep restriction therapy is only a CONDITIONAL recommendation requiring clinical judgment",
+        "Addressed to clinicians selecting therapy, not to self-help or consumer device contexts",
+        "Sleep restriction carries risks such as daytime sleepiness and requires professional supervision",
+        "Guideline does not evaluate wearable-estimated time in bed as a trigger condition"
+      ],
+      "case_dimensions": [
+        "time_in_bed_min",
+        "sleep_efficiency_pct",
+        "waso_min"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "aasm-2021-cbti",
+        "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline",
+        "organization": "American Academy of Sleep Medicine",
+        "year": 2021,
+        "url": "https://doi.org/10.5664/jcsm.8986",
+        "locator": "Recommendation 1 (multicomponent CBT-I, STRONG); Recommendation 4 (sleep restriction therapy, CONDITIONAL)",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "exercise-sleep-quality-meta",
+      "title": "Regular movement and sleep quality",
+      "claim_summary": "Across 81 randomized controlled trials in non-athlete adults, exercise interventions improved self-reported sleep quality and, in a smaller objective evidence base, sleep efficiency versus control; the review does not establish a wearable activity-minute, Active Zone Minute, or heart-rate-zone dose for any individual.",
+      "evidence_basis": "Regular exercise interventions can improve self-reported sleep quality on average",
+      "population": "Non-athlete adults represented across 81 randomized controlled trials; intervention types and baseline sleep concerns varied",
+      "applicability": "Conditional support for an adult who wants to test a sustainable regular movement routine as one possible sleep-supportive behavior; it is not triggered by a low step count or a heart-rate-zone total alone",
+      "limitations": [
+        "The primary outcome was self-reported sleep quality, not a Fitbit sleep endpoint",
+        "Exercise type, duration, frequency, baseline health, and sleep concerns varied across trials",
+        "The review does not identify a safe or effective dose from daily Fitbit activity minutes, Active Zone Minutes, or HR zones",
+        "A daily activity-sleep association in this dataset cannot establish that activity caused that night's sleep pattern"
+      ],
+      "case_dimensions": [
+        "active_minutes",
+        "fairly_active_minutes",
+        "very_active_minutes"
+      ],
+      "supported_outcome_dimensions": [
+        "sleep_efficiency_pct"
+      ],
+      "evidence_level": "guidance",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not prescribe a numeric exercise dose from Fitbit activity fields",
+        "Do not claim that low activity caused poor sleep",
+        "Do not use HR-zone values as cardiovascular screening or a sleep-treatment target"
+      ],
+      "source": {
+        "source_id": "he-2025-exercise-sleep-nma",
+        "title": "Effects of exercise on sleep quality in the general population: A systematic review and meta-analysis",
+        "organization": "Sleep Medicine (Zhou et al.)",
+        "year": 2025,
+        "url": "https://doi.org/10.1016/j.sleep.2024.10.036",
+        "locator": "Abstract: 81 randomized controlled trials, 6,193 participants; pooled PSQI and sleep-efficiency outcomes",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "sleep-wake-regularization-trial",
+      "title": "Schedule regularization and daytime sleepiness",
+      "claim_summary": "One prospective study in college students without sleep deprivation found that a regular sleep-wake schedule was associated with less self-reported daytime sleepiness; this preliminary result does not establish a general-adult intervention effect or a universal timing target.",
+      "evidence_basis": "Schedule regularization was associated with less reported sleepiness in the study population",
+      "population": "College undergraduate students without nocturnal sleep deprivation",
+      "applicability": "Background for describing persistent timing variability as a pattern worth considering; this single, student-based study is not mature enough to authorize a current wearable-only behavior recommendation by itself",
+      "limitations": [
+        "Single older study in college students; not representative of the full adult dataset",
+        "Outcome was daytime sleepiness, not consumer wearable sleep metrics",
+        "It does not identify why timing varies or establish a clinical circadian diagnosis",
+        "The current data do not capture work schedules, travel, caregiving, or other constraints"
+      ],
+      "case_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min"
+      ],
+      "evidence_level": "explanation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not use this study alone to generate a schedule-regularization action",
+        "Do not diagnose delayed sleep-wake phase disorder",
+        "Do not prescribe timed light, melatonin, or sleep restriction",
+        "Do not use timing variability to infer alcohol, anxiety, shift work, or lifestyle choices"
+      ],
+      "source": {
+        "source_id": "manber-1996-regularization",
+        "title": "The effects of regularizing sleep-wake schedules on daytime sleepiness",
+        "organization": "Sleep (Manber et al.)",
+        "year": 1996,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8843535/",
+        "locator": "Abstract conclusion",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "alcohol-sleep-context-meta",
+      "title": "Alcohol timing as a conditional continuity check",
+      "claim_summary": "NHLBI guidance explains that alcohol close to bedtime may make sleep lighter and make nighttime waking more likely. It can support one conditional alcohol-timing option when repeated sleep-continuity disruption is present, but cannot show whether any individual drank alcohol or whether alcohol caused the pattern.",
+      "evidence_basis": "Alcohol close to bedtime may contribute to lighter, more interrupted sleep",
+      "population": "Adults seeking general sleep-health guidance",
+      "applicability": "Only for a repeated elevated-WASO or fragmentation pattern that remains partly unexplained, and only as an explicit if-then option about alcohol close to the sleep period. The current data contain no alcohol exposure, so the text must not claim use or causation.",
+      "limitations": [
+        "Alcohol exposure, dose, and timing are not present in the project data",
+        "NHLBI guidance is general health guidance rather than an individual intervention trial",
+        "Fitbit-estimated WASO depends on sleep-wake classification and is not clinical proof of fragmentation"
+      ],
+      "case_dimensions": [
+        "waso_min"
+      ],
+      "supported_outcome_dimensions": [
+        "waso_min"
+      ],
+      "evidence_level": "guidance",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not state or imply that the reader drank alcohol",
+        "Do not give an alcohol option unless it begins with an explicit if–then condition",
+        "Do not infer alcohol exposure from Fitbit-estimated WASO or sleep stages",
+        "Do not invent a universal dose, serving limit, or number of hours before bed"
+      ],
+      "source": {
+        "source_id": "nih-nhlbi-insomnia-treatment-alcohol",
+        "title": "Insomnia: Treatment",
+        "organization": "National Heart, Lung, and Blood Institute",
+        "year": 2022,
+        "url": "https://www.nhlbi.nih.gov/health/insomnia/treatment",
+        "locator": "Healthy sleep habits: alcohol close to bedtime can produce lighter sleep and make nighttime waking more likely",
+        "source_tier": "government_health_guidance"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "evening-exercise-context-review",
+      "title": "Evening exercise and sleep context",
+      "claim_summary": "A meta-analysis in healthy adults found that evening exercise generally did not worsen subsequent sleep, although vigorous exercise ending within one hour of bedtime might impair some sleep measures; it does not identify the timing of an individual's activity from daily summaries.",
+      "evidence_basis": "Evening exercise is not uniformly harmful to sleep; timing and relative intensity may matter",
+      "population": "Healthy adult participants in acute exercise studies",
+      "applicability": "May support a conditional statement that exercise timing could be considered when sleep changes occur; daily Fitbit activity summaries do not reveal exercise timing, modality, thermal stress, or proximity to bedtime",
+      "limitations": [
+        "Most evidence concerns healthy adults and acute sessions",
+        "Findings for vigorous activity near bedtime were based on limited moderator evidence",
+        "The present daily activity data have no time-of-day information"
+      ],
+      "case_dimensions": [
+        "active_minutes",
+        "hr_zone_cardio_minutes",
+        "hr_zone_peak_minutes"
+      ],
+      "evidence_level": "explanation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not infer late exercise from daily totals",
+        "Do not advise avoiding all evening exercise",
+        "Do not prescribe activity timing from a single-night sleep change"
+      ],
+      "source": {
+        "source_id": "stutz-2019-evening-exercise",
+        "title": "Effects of Evening Exercise on Sleep in Healthy Participants: A Systematic Review and Meta-Analysis",
+        "organization": "Sports Medicine (Stutz et al.)",
+        "year": 2019,
+        "url": "https://doi.org/10.1007/s40279-018-1015-0",
+        "locator": "Abstract conclusion and moderator analysis",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "aou-sleep-health-association",
+      "title": "Long-term wearable sleep patterns and health",
+      "claim_summary": "In long-term Fitbit data linked to electronic health records, greater sleep irregularity was associated with incident obesity, hyperlipidemia, hypertension, major depressive disorder and generalized anxiety disorder, and average sleep duration showed J-shaped associations with several outcomes; this is not an individual diagnostic or intervention result.",
+      "evidence_basis": "Persistent sleep duration and regularity patterns were associated with several chronic health outcomes",
+      "population": "6,785 All of Us adults with at least six months of Fitbit data and linked EHRs; median follow-up 4.5 years",
+      "applicability": "Background for cautious long-term-health framing of persistent duration or regularity patterns; never a personal risk estimate, disease hypothesis, or treatment indication",
+      "limitations": [
+        "Observational design with possible residual confounding and reverse causation",
+        "Current cases have far shorter observation windows and no linked EHR outcomes",
+        "The study cannot determine whether changing one person's wearable sleep pattern changes disease risk",
+        "Fitbit stage associations may reflect heart-rate algorithm effects or occult health conditions"
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min"
+      ],
+      "evidence_level": "explanation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not name a disease as likely or present in the reader",
+        "Do not calculate an individual disease risk",
+        "Do not use sleep stages to infer atrial fibrillation or cardiovascular disease",
+        "Do not make an intervention promise about disease prevention"
+      ],
+      "source": {
+        "source_id": "zheng-2024-aou-sleep",
+        "title": "Sleep patterns and risk of chronic disease as measured by long-term monitoring with commercial wearable devices in the All of Us Research Program",
+        "organization": "Nature Medicine (Zheng, Annis, Master et al.)",
+        "year": 2024,
+        "url": "https://doi.org/10.1038/s41591-024-03155-8",
+        "locator": "Abstract; Fig. 4; Discussion and limitations",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "recorded-sleep-data-cannot-diagnose-disorders",
+      "title": "Consumer trackers cannot diagnose sleep disorders",
+      "claim_summary": "The AASM states that given the lack of validation against polysomnography and lack of FDA clearance, consumer sleep technology cannot be used for the diagnosis or treatment of sleep disorders.",
+      "evidence_basis": "Restrictive for diagnostic use; permissive for engagement and self-tracking context",
+      "population": "Not applicable; position statement on United States clinical practice",
+      "applicability": "Global constraint on the whole pipeline: no output may take a diagnostic or treatment form",
+      "limitations": [
+        "Statement identifies unmet needs including future validation, access to raw data and algorithms, and FDA oversight",
+        "Published 2018 and predates current-generation algorithms",
+        "Verified via Europe PMC metadata; publisher sites blocked automated access, so no finer locator was obtained"
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "sleep_efficiency_pct"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [],
+      "source": {
+        "source_id": "aasm-2018-cst",
+        "title": "Consumer Sleep Technology: An American Academy of Sleep Medicine Position Statement",
+        "organization": "American Academy of Sleep Medicine",
+        "year": 2018,
+        "url": "https://doi.org/10.5664/jcsm.7128",
+        "locator": "Position statement paragraph beginning 'Given the lack of validation and United States Food and Drug Administration (FDA) clearance'",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "free-living-sleep-extension-adults",
+      "title": "Free-living sleep extension",
+      "claim_summary": "In a four-week free-living study of healthy young adults who habitually slept under 6.5 hours, an individualized sleep-extension program increased actigraphy-measured total sleep time by about 47 minutes on average; it was a small uncontrolled study and does not establish an individual dose or clinical benefit.",
+      "evidence_basis": "An individualized increase in sleep opportunity increased actigraphy-measured total sleep time on average in the study population",
+      "population": "30 healthy adults aged 18–35 with habitual sleep under 6.5 hours and no diagnosed sleep disorder; substantial screening exclusions",
+      "applicability": "Supplementary direct evidence for a cautious, feasible sleep-opportunity experiment when a 14+ night pattern shows short total sleep; it reinforces monitoring total sleep time and time in bed rather than prescribing a fixed bedtime",
+      "limitations": [
+        "Single-arm study with 30 participants and no control group",
+        "Participants were young, healthy, screened adults, so transfer beyond this group is uncertain",
+        "The intervention included individualized discussion and adherence support that are not present in the current system",
+        "The result does not identify why a current case has short sleep or guarantee daytime, health, or clinical benefit"
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "time_in_bed_min"
+      ],
+      "supported_outcome_dimensions": [
+        "total_sleep_min"
+      ],
+      "evidence_level": "guidance",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not infer that short time in bed proves limited sleep opportunity as a personal cause",
+        "Do not promise improvement in sleep efficiency, sleep stages, alertness, or health outcomes",
+        "Do not apply the study's specific eligibility or intervention dose as a general prescription"
+      ],
+      "source": {
+        "source_id": "stegman-2026-sleep-extension",
+        "title": "From yawn to dawn: the effects of a sleep extension intervention on objective and subjective dimensions of sleep health in adults with habitual short sleep duration",
+        "organization": "SLEEP Advances (Stegman et al.)",
+        "year": 2026,
+        "url": "https://doi.org/10.1093/sleepadvances/zpag003",
+        "locator": "Abstract and Methods: 30 healthy adults aged 18–35 with habitual sleep under 6.5 hours; two-week baseline and four-week individualized sleep-extension intervention",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "sleep-hygiene-not-standalone",
+      "title": "Sleep hygiene is not standalone insomnia treatment",
+      "claim_summary": "The American Academy of Sleep Medicine guideline for adults with chronic insomnia disorder recommends against using sleep-hygiene education as a stand-alone treatment, even though individual low-risk habits may be discussed in broader care.",
+      "evidence_basis": "Restricts generic hygiene lists from being represented as a complete treatment",
+      "population": "Adults with diagnosed chronic insomnia disorder; guideline is addressed to clinicians",
+      "applicability": "A wording boundary for the current non-diagnostic system: do not present a generic collection of hygiene tips as treatment, a cure, or a replacement for assessment",
+      "limitations": [
+        "The guideline addresses diagnosed chronic insomnia disorder, not general population sleep tracking",
+        "It does not test the effectiveness of any one low-risk habit in this dataset",
+        "It should not be used to infer that a tracked individual has insomnia"
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "sleep_efficiency_pct",
+        "waso_min"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not diagnose insomnia from wearable data",
+        "Do not use this card to prescribe CBT-I, sleep restriction, stimulus control, or relaxation therapy",
+        "Do not label a generic tip list as a treatment plan"
+      ],
+      "source": {
+        "source_id": "aasm-2021-cbti",
+        "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline",
+        "organization": "American Academy of Sleep Medicine",
+        "year": 2021,
+        "url": "https://doi.org/10.5664/jcsm.8986",
+        "locator": "Recommendation 6: clinicians are conditionally advised not to use sleep hygiene as a single-component therapy for chronic insomnia disorder in adults",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "activity-minutes-measurement-boundary",
+      "title": "Wearable activity-minute measurement limits",
+      "claim_summary": "In 65 free-living adults, wrist-worn Fitbit Flex estimates of moderate-to-vigorous activity were substantially higher than hip-worn ActiGraph GT3X+ estimates, with mean absolute percentage errors of 56.6% to 74.3% across comparison methods. Daily activity minutes can describe within-person co-variation but are not a precise intervention dose or proof of a sleep mechanism.",
+      "evidence_basis": "Restricts precision and causal interpretation of daily activity-minute estimates",
+      "population": "65 free-living adults (mean age 42 years; 72% female) wearing wrist Fitbit Flex and hip ActiGraph GT3X+ for seven consecutive days",
+      "applicability": "Hidden boundary for activity-minute context: do not convert daily active-minute co-variation into an exercise dose, a causal explanation, or a sleep intervention target.",
+      "limitations": [
+        "The study evaluated Fitbit Flex at the wrist against a hip-worn ActiGraph rather than every current Fitbit algorithm or the present data export",
+        "ActiGraph cut-point methods differ and no device provides a universal ground truth for free-living activity intensity",
+        "The study does not assess heart-rate-zone fields or sleep outcomes"
+      ],
+      "case_dimensions": [
+        "active_minutes",
+        "fairly_active_minutes",
+        "very_active_minutes"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not prescribe a specific amount or intensity of activity from these fields",
+        "Do not infer that activity caused the following night's sleep pattern",
+        "Do not treat a day-level correlation as a personal mechanism"
+      ],
+      "source": {
+        "source_id": "redenius-2019-fitbit-activity",
+        "title": "Concurrent validity of the Fitbit for assessing sedentary behavior and moderate-to-vigorous physical activity",
+        "organization": "BMC Medical Research Methodology (Redenius et al.)",
+        "year": 2019,
+        "url": "https://doi.org/10.1186/s12874-019-0668-1",
+        "locator": "Methods/Results: 65 adults wore wrist Fitbit Flex and hip ActiGraph GT3X+ for seven days; Fitbit MVPA mean absolute percentage error was 56.6% to 74.3% across comparison cut-points",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "healthy-sleep-natural-variation",
+      "title": "Natural night-to-night sleep variation",
+      "claim_summary": "A pooled analysis of eight healthy-sleeper datasets found substantial night-to-night variation even in healthy people: actigraphy sleep-duration intraindividual SD averaged 77.41 minutes and sleep-efficiency SD averaged 5.22 percentage points. The authors also noted that no consensus defines a universal normal variability threshold.",
+      "evidence_basis": "Prevents overinterpretation of ordinary night-to-night sleep variation",
+      "population": "2,404 healthy sleepers contributing 26,121 days across eight pooled datasets; diary, actigraphy and EEG measures",
+      "applicability": "Hidden longitudinal boundary: describe variation without calling it abnormal from one generic cutoff; give more weight to repeated patterns, material changes and the person's own history.",
+      "limitations": [
+        "The pooled samples were healthy sleepers, so their variation does not define normality for people with sleep concerns or clinical conditions",
+        "Pooled datasets varied in age, demographics, measurement modality and number of recorded nights",
+        "The estimates are not Fitbit-specific and do not establish a clinical threshold",
+        "The study reports population variation, not an intervention effect or individual risk"
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "sleep_efficiency_pct",
+        "sleep_period_start_clock_min",
+        "wake_clock_min"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not label a person's variability abnormal solely because it differs from the pooled mean",
+        "Do not use this card to prescribe schedule regularization or diagnose a disorder",
+        "Do not turn population variation into a personal percentile claim"
+      ],
+      "source": {
+        "source_id": "messman-2022-sleep-iiv",
+        "title": "How much does sleep vary from night-to-night? A quantitative summary of intraindividual variability in sleep by age, gender, and racial/ethnic identity across eight-pooled datasets",
+        "organization": "Journal of Sleep Research (Messman et al.)",
+        "year": 2022,
+        "url": "https://doi.org/10.1111/jsr.13680",
+        "locator": "Abstract: pooled healthy-sleeper estimates for diary, actigraphy and EEG intraindividual sleep variation",
+        "source_tier": "high_quality_original_study"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "avoid-sleep-score-preoccupation",
+      "title": "Avoid perfectionistic sleep-score targets",
+      "claim_summary": "A clinical case series described people whose pursuit of ideal tracker-derived sleep metrics became counterproductive and introduced the term orthosomnia. Tracking should support occasional pattern review, not pressure to achieve perfect nightly scores or sleep-stage targets.",
+      "evidence_basis": "Restricts score-chasing and perfectionistic metric framing",
+      "population": "Three clinical case reports of people presenting with sleep concerns linked to tracker-derived metrics",
+      "applicability": "Hidden safety boundary: recommendations may invite a calm pattern review but must not set perfectionistic nightly score, deep-sleep, REM, or efficiency targets.",
+      "limitations": [
+        "Case series cannot estimate prevalence, causality, or the effect of reducing tracker use",
+        "The term is not a formal diagnosis",
+        "The report does not determine whether any current reader is distressed by tracking"
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "sleep_efficiency_pct",
+        "deep_sleep_min",
+        "rem_sleep_min"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not diagnose orthosomnia or anxiety from tracker data",
+        "Do not tell every reader to stop tracking",
+        "Do not prescribe a perfect nightly sleep score or sleep-stage target"
+      ],
+      "source": {
+        "source_id": "baron-2017-orthosomnia",
+        "title": "Orthosomnia: Are Some Patients Taking the Quantified Self Too Far?",
+        "organization": "Journal of Clinical Sleep Medicine (Baron et al.)",
+        "year": 2017,
+        "url": "https://doi.org/10.5664/jcsm.6472",
+        "locator": "Case series and discussion introducing tracker-related preoccupation with ideal sleep metrics",
+        "source_tier": "case_series_or_clinical_report"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "resting-hr-measurement-boundary",
+      "title": "Wearable heart-rate measurement limits",
+      "claim_summary": "A systematic review of commercially available wearables found that validity differs by device, activity condition and outcome; wrist-worn heart-rate values can be useful for within-person observation but should not be treated as diagnostic or interchangeable with a clinical measurement.",
+      "evidence_basis": "Restricts diagnostic and clinical interpretation of wearable heart-rate values",
+      "population": "Validation studies of commercially available wearable devices across diverse adult populations and laboratory/free-living conditions",
+      "applicability": "Hidden boundary for resting-heart-rate context: describe sustained within-person patterns cautiously; do not call a daily aggregate sleeping HR, diagnose disease, or set a clinical treatment target.",
+      "limitations": [
+        "The review spans devices, protocols and reference standards rather than the present data export alone",
+        "It does not establish what a particular individual's heart-rate change means",
+        "It does not validate HRV estimates or authorize a sleep recommendation"
+      ],
+      "case_dimensions": [
+        "resting_heart_rate"
+      ],
+      "evidence_level": "limitation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not relabel daily heart-rate aggregates as resting or nocturnal heart rate",
+        "Do not infer cardiovascular disease, infection or overtraining",
+        "Do not prescribe a heart-rate target or treatment"
+      ],
+      "source": {
+        "source_id": "fuller-2020-wearable-validity",
+        "title": "Reliability and Validity of Commercially Available Wearable Devices for Measuring Steps, Energy Expenditure, and Heart Rate: Systematic Review",
+        "organization": "JMIR mHealth and uHealth (Fuller et al.)",
+        "year": 2020,
+        "url": "https://doi.org/10.2196/18694",
+        "locator": "Abstract and Results: validity/reliability varied across commercial devices, outcomes and conditions",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": false
+    },
+    {
+      "dossier_id": "sleep-loss-hrv-context",
+      "title": "Sleep loss and heart-rate variability context",
+      "claim_summary": "A systematic review and meta-analysis of 11 randomized sleep-deprivation studies found changes in several HRV measures after experimental sleep deprivation, but results varied by HRV index and protocol. It supports treating a sustained HRV change alongside short sleep as context to clarify, not as proof of cause or a health diagnosis.",
+      "evidence_basis": "Several autonomic HRV measures changed after experimental sleep deprivation, with heterogeneous results",
+      "population": "549 participants in experimental sleep-deprivation studies; protocols and HRV methods varied",
+      "applicability": "May support a cautious Section 2 statement that a repeated HRV shift alongside short sleep is worth putting in wider context. It does not identify whether sleep caused the HRV pattern or authorize an HRV-directed action.",
+      "limitations": [
+        "Experimental sleep deprivation differs from routine consumer-wearable sleep patterns",
+        "HRV indices, deprivation protocols and timing varied substantially",
+        "The review does not establish illness, stress, medication or training load in any individual"
+      ],
+      "case_dimensions": [
+        "heart_rate_variability",
+        "total_sleep_min"
+      ],
+      "evidence_level": "explanation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not infer that sleep caused a current HRV change",
+        "Do not diagnose autonomic dysfunction or cardiovascular disease",
+        "Do not prescribe exercise, medication or breathing treatment from HRV"
+      ],
+      "source": {
+        "source_id": "zhang-2025-sleep-deprivation-hrv",
+        "title": "Effects of sleep deprivation on heart rate variability: a systematic review and meta-analysis",
+        "organization": "Frontiers in Physiology (Zhang et al.)",
+        "year": 2025,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40895095/",
+        "locator": "Abstract: 11 randomized studies, 549 participants; RMSSD decreased while several other indices were mixed or non-significant",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": false
+    },
+    {
+      "dossier_id": "stress-hrv-context",
+      "title": "Stress and heart-rate variability context",
+      "claim_summary": "A meta-analysis of human stress-reactivity studies found that HRV measures often changed under experimentally induced stress, while also noting that no accepted standard exists for stress evaluation from HRV alone. It supports stress only as one possible context to ask about, never as a conclusion from a wearable value.",
+      "evidence_basis": "HRV commonly changes under experimental stress but remains non-specific",
+      "population": "Human stress-reactivity studies using heterogeneous HRV measures and induced stress protocols",
+      "applicability": "For a sustained HRV change, may support mentioning recent stress as one optional contextual detail to clarify in Section 2; it cannot establish stress occurred or explain sleep.",
+      "limitations": [
+        "Induced stress paradigms and HRV measures differ from passive consumer monitoring",
+        "No accepted HRV standard diagnoses or quantifies personal stress",
+        "The review cannot distinguish stress from sleep, illness, activity, medication or measurement effects"
+      ],
+      "case_dimensions": [
+        "heart_rate_variability"
+      ],
+      "evidence_level": "explanation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not state that the reader is stressed or anxious",
+        "Do not diagnose a mental-health condition",
+        "Do not prescribe stress treatment from HRV"
+      ],
+      "source": {
+        "source_id": "kim-2018-stress-hrv",
+        "title": "Stress and Heart Rate Variability: A Meta-Analysis and Review of the Literature",
+        "organization": "Psychiatry Investigation (Kim et al.)",
+        "year": 2018,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29486547/",
+        "locator": "Abstract: 37 human studies; HRV reactivity under induced stress; no accepted standard for stress evaluation",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": false
+    },
+    {
+      "dossier_id": "training-hrv-context",
+      "title": "Training and heart-rate variability context",
+      "claim_summary": "A systematic review found that multi-week physical-training interventions can change resting HRV in healthy adults, with effects depending on modality, intensity, frequency and measurement methods. It supports recent training changes only as a possible context for an HRV shift, not an explanation or exercise prescription.",
+      "evidence_basis": "Training can alter resting HRV measures, with heterogeneous effects by programme",
+      "population": "Healthy young and middle-aged adults in structured training intervention studies",
+      "applicability": "For a sustained HRV shift, may support asking whether training volume or intensity recently changed. The current activity summaries lack timing, modality and load, so this cannot support an exercise action.",
+      "limitations": [
+        "Structured training trials differ from daily wearable activity summaries",
+        "The present data do not quantify training load, modality, intensity or recovery",
+        "The review cannot establish that a current HRV pattern is training-related"
+      ],
+      "case_dimensions": [
+        "heart_rate_variability",
+        "active_minutes"
+      ],
+      "evidence_level": "explanation",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not infer overtraining or insufficient recovery",
+        "Do not prescribe an exercise dose or timing",
+        "Do not treat a daily activity-HRV association as causal"
+      ],
+      "source": {
+        "source_id": "grassler-2021-training-hrv",
+        "title": "Effects of Different Training Interventions on Heart Rate Variability and Cardiovascular Health and Risk Factors in Young and Middle-Aged Adults: A Systematic Review",
+        "organization": "Frontiers in Physiology (Grässler et al.)",
+        "year": 2021,
+        "url": "https://doi.org/10.3389/fphys.2021.657274",
+        "locator": "Abstract: 26 eligible training studies; modality, intensity and frequency influenced resting HRV measures",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": false
+    },
+    {
+      "dossier_id": "caffeine-timing-meta",
+      "title": "Caffeine timing and subsequent sleep",
+      "claim_summary": "A systematic review and meta-analysis of 24 studies found that caffeine before sleep reduced total sleep time and sleep efficiency and increased sleep-onset latency and wake after sleep onset. It can support one conditional caffeine-timing option, but cannot show whether any individual used caffeine.",
+      "evidence_basis": "Caffeine consumed before sleep worsened several sleep outcomes on average in the included studies",
+      "population": "Adults in controlled caffeine-sleep studies; beverage, supplement, dose, and timing varied",
+      "applicability": "For a repeated, meaningful short, late, or fragmented sleep pattern that remains partly unexplained, may support at most one explicit if-then caffeine-timing trial. The current data contain no caffeine source, dose, or timing, so the text must not claim caffeine use or causation.",
+      "limitations": [
+        "Caffeine exposure, dose, timing, sensitivity, and prescribed-medication context are absent from the current daily logs",
+        "The review's timing estimates vary by dose and product and must not be converted into a universal cutoff",
+        "A short or fragmented wearable night cannot establish caffeine as its cause"
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "sleep_efficiency_pct",
+        "waso_min"
+      ],
+      "supported_outcome_dimensions": [
+        "total_sleep_min",
+        "sleep_efficiency_pct",
+        "waso_min"
+      ],
+      "evidence_level": "guidance",
+      "reference_values": [],
+      "prohibited_uses": [
+        "Do not infer caffeine use from sleep data",
+        "Do not give a caffeine option unless it begins with an explicit if–then condition",
+        "Do not advise changing prescribed medication without clinical guidance"
+      ],
+      "source": {
+        "source_id": "gardiner-2023-caffeine-sleep",
+        "title": "The effect of caffeine on subsequent sleep: A systematic review and meta-analysis",
+        "organization": "Sleep Medicine Reviews (Gardiner et al.)",
+        "year": 2023,
+        "url": "https://doi.org/10.1016/j.smrv.2023.101764",
+        "locator": "Abstract: 24 studies; caffeine reduced total sleep time by 45 minutes and sleep efficiency by 7% on average",
+        "source_tier": "systematic_review_or_meta_analysis"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "adult-sleep-duration-reference-18-64",
+      "title": "Adult sleep-duration reference (18-64)",
+      "claim_summary": "The National Sleep Foundation consensus recommends 7-9 hours of sleep per day for young adults and adults. This project uses only the 7-hour lower bound to calibrate persistent short sleep.",
+      "evidence_basis": "Habitual sleep below the age-applicable lower reference may support making more time available for sleep",
+      "population": "Adults aged 18-64 years",
+      "applicability": "Only when age is 18-64, at least 14 valid nights are available, and both whole-record and recent sleep duration remain below 7 hours",
+      "limitations": [
+        "Population consensus is context rather than an exact individual prescription",
+        "The upper end of the recommended range must not by itself trigger advice to reduce sleep",
+        "A one-night value or provisional decline does not establish habitual short sleep"
+      ],
+      "case_dimensions": [
+        "total_sleep_min"
+      ],
+      "evidence_level": "reference",
+      "reference_values": [
+        {
+          "metric_id": "total_sleep_min",
+          "comparator": "at_least",
+          "value": 420,
+          "unit": "min",
+          "label": "adult nightly sleep reference for ages 18-64",
+          "use_as": "lower_bound_for_persistent_short_duration_only"
+        }
+      ],
+      "prohibited_uses": [
+        "Do not apply outside ages 18-64",
+        "Do not use 9 hours as an automatic upper-limit action trigger",
+        "Do not display this reference merely to justify maintaining adequate duration"
+      ],
+      "source": {
+        "source_id": "nsf-2015-age-stratified-sleep-duration",
+        "title": "National Sleep Foundation's updated sleep duration recommendations: final report",
+        "organization": "National Sleep Foundation; Sleep Health",
+        "year": 2015,
+        "url": "https://doi.org/10.1016/j.sleh.2015.10.004",
+        "locator": "Results: 7-9 hours for young adults and adults; 7-8 hours for older adults",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "older-adult-sleep-duration-reference-65-plus",
+      "title": "Older-adult sleep-duration reference (65+)",
+      "claim_summary": "The National Sleep Foundation consensus recommends 7-8 hours of sleep per day for older adults. This project uses only the 7-hour lower bound to calibrate persistent short sleep.",
+      "evidence_basis": "Habitual sleep below the age-applicable lower reference may support making more time available for sleep",
+      "population": "Adults aged 65 years and older",
+      "applicability": "Only when age is at least 65, at least 14 valid nights are available, and both whole-record and recent sleep duration remain below 7 hours",
+      "limitations": [
+        "Population consensus is context rather than an exact individual prescription",
+        "The upper end of the recommended range must not by itself trigger advice to reduce sleep",
+        "A one-night value or provisional decline does not establish habitual short sleep"
+      ],
+      "case_dimensions": [
+        "total_sleep_min"
+      ],
+      "evidence_level": "reference",
+      "reference_values": [
+        {
+          "metric_id": "total_sleep_min",
+          "comparator": "at_least",
+          "value": 420,
+          "unit": "min",
+          "label": "older-adult nightly sleep reference for ages 65 and older",
+          "use_as": "lower_bound_for_persistent_short_duration_only"
+        }
+      ],
+      "prohibited_uses": [
+        "Do not apply below age 65",
+        "Do not use 8 hours as an automatic upper-limit action trigger",
+        "Do not display this reference merely to justify maintaining adequate duration"
+      ],
+      "source": {
+        "source_id": "nsf-2015-age-stratified-sleep-duration",
+        "title": "National Sleep Foundation's updated sleep duration recommendations: final report",
+        "organization": "National Sleep Foundation; Sleep Health",
+        "year": 2015,
+        "url": "https://doi.org/10.1016/j.sleh.2015.10.004",
+        "locator": "Results: 7-9 hours for young adults and adults; 7-8 hours for older adults",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "sleep-efficiency-quality-reference",
+      "title": "Sleep-efficiency quality reference",
+      "claim_summary": "A National Sleep Foundation consensus identifies sleep efficiency of at least 85% as an indicator of good sleep quality across the adult lifespan. It provides general multi-night context, not a diagnostic cutoff or individual treatment target.",
+      "evidence_basis": "Expert consensus on sleep efficiency as an indicator of good sleep quality",
+      "population": "Otherwise healthy adults across the adult lifespan",
+      "applicability": "Only with at least 14 valid nights and when recent 7-night sleep efficiency is below 85% and the reference materially clarifies the longitudinal pattern. It may calibrate interpretation but does not authorize a specific behavior change.",
+      "limitations": [
+        "The consensus describes an indicator of good sleep quality rather than a diagnostic criterion, clinical abnormality threshold, or treatment target",
+        "The project's sleep efficiency is transparently calculated from recorded total sleep and time in bed; denominator and measurement conventions can differ across research, diaries, polysomnography, and consumer records",
+        "Consumer sleep-wake classification error affects both recorded total sleep and time in bed",
+        "A single night or a very small change around 85% does not establish a persistent sleep problem"
+      ],
+      "case_dimensions": [
+        "sleep_efficiency_pct",
+        "time_in_bed_min",
+        "total_sleep_min"
+      ],
+      "evidence_level": "reference",
+      "reference_values": [
+        {
+          "metric_id": "sleep_efficiency_pct",
+          "comparator": "at_least",
+          "value": 85,
+          "unit": "%",
+          "label": "general adult sleep-efficiency quality indicator",
+          "use_as": "multinight_quality_context_only"
+        }
+      ],
+      "prohibited_uses": [
+        "Do not diagnose insomnia or another sleep disorder from this reference",
+        "Do not use 85% as a single-night trigger or precise personal treatment target",
+        "Do not use this reference as authorization for caffeine, alcohol, screen, nap, environment, or wind-down advice",
+        "Do not infer a cause of lower sleep efficiency"
+      ],
+      "source": {
+        "source_id": "nsf-2017-sleep-quality-consensus",
+        "title": "National Sleep Foundation's sleep quality recommendations: first report",
+        "organization": "National Sleep Foundation; Sleep Health",
+        "year": 2017,
+        "url": "https://doi.org/10.1016/j.sleh.2016.11.006",
+        "locator": "Expert consensus regarding sleep efficiency across the lifespan: at least 85% indicates good sleep quality",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "conditional-nap-adjustment",
+      "title": "Nap timing as a conditional sleep experiment",
+      "claim_summary": "NHLBI guidance notes that naps can improve alertness, while adults who have difficulty falling asleep at night may benefit from limiting naps, taking them earlier, or keeping them brief.",
+      "evidence_basis": "Supports a reversible nap-timing experiment only as a reader-self-check branch when napping and nighttime sleep difficulty apply.",
+      "population": "Adults seeking to improve sleep habits",
+      "applicability": "Conditional on the reader recognizing that naps occur and may conflict with the main nighttime sleep period.",
+      "limitations": [
+        "The current raw data do not contain naps or daytime sleepiness",
+        "Naps may be useful for alertness, shift work, acute sleep loss, or safety-sensitive circumstances",
+        "The guidance does not support universal nap elimination"
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "sleep_period_start_clock_min"
+      ],
+      "evidence_level": "guidance",
+      "prohibited_uses": [
+        "Do not infer naps from nighttime wearable records",
+        "Do not tell every reader to avoid naps"
+      ],
+      "source": {
+        "source_id": "nih-nhlbi-healthy-sleep-habits",
+        "title": "Sleep Deprivation and Deficiency: Healthy Sleep Habits",
+        "organization": "US National Heart, Lung, and Blood Institute",
+        "year": 2022,
+        "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+        "locator": "Adult guidance on quiet pre-sleep time, bright artificial light, naps, relaxation, activity, and a quiet/cool/dark bedroom",
+        "source_tier": "government_health_guidance"
+      },
+      "runtime_enabled": false
+    },
+    {
+      "dossier_id": "quiet-wind-down-experiment",
+      "title": "A quiet wind-down period before sleep",
+      "claim_summary": "NHLBI healthy-sleep guidance recommends using the hour before bed for quiet time and notes that a hot bath or relaxation techniques may be used before bed.",
+      "evidence_basis": "Supports a low-risk, reversible wind-down experiment rather than a claim that stress caused the sleep pattern.",
+      "population": "Adults seeking to improve sleep habits",
+      "applicability": "For a repeated late or shortened sleep pattern that remains partly unexplained, may support one explicit if-then trial conditional on an activating or inconsistent pre-sleep period actually applying.",
+      "limitations": [
+        "The current raw data do not measure stress, anxiety, arousal, or bedtime activities",
+        "General sleep-habit guidance is not treatment for chronic insomnia"
+      ],
+      "case_dimensions": [
+        "sleep_period_start_clock_min",
+        "total_sleep_min"
+      ],
+      "supported_outcome_dimensions": [
+        "sleep_period_start_clock_min",
+        "total_sleep_min"
+      ],
+      "evidence_level": "guidance",
+      "prohibited_uses": [
+        "Do not infer psychological hyperarousal",
+        "Do not label this CBT-I"
+      ],
+      "source": {
+        "source_id": "nih-nhlbi-healthy-sleep-habits",
+        "title": "Sleep Deprivation and Deficiency: Healthy Sleep Habits",
+        "organization": "US National Heart, Lung, and Blood Institute",
+        "year": 2022,
+        "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+        "locator": "Adult guidance on quiet pre-sleep time, bright artificial light, naps, relaxation, activity, and a quiet/cool/dark bedroom",
+        "source_tier": "government_health_guidance"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "conditional-light-and-screen-adjustment",
+      "title": "Light and screen timing as a conditional experiment",
+      "claim_summary": "NHLBI healthy-sleep guidance recommends outdoor daytime exposure where possible and avoiding bright artificial light, including television and computer screens, during the hour before bed.",
+      "evidence_basis": "Supports a simple reader-self-check exposure experiment when late bright light or screen use applies.",
+      "population": "Adults seeking to improve sleep habits",
+      "applicability": "For a repeated late or irregular sleep-timing pattern that remains partly unexplained, may support one explicit if-then trial conditional on relevant late light or screen exposure actually applying.",
+      "limitations": [
+        "The current raw data contain no light, screen, or device-use exposure",
+        "The guidance does not establish an individualized circadian phase or justify a light-box dose"
+      ],
+      "case_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min"
+      ],
+      "supported_outcome_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min"
+      ],
+      "evidence_level": "guidance",
+      "prohibited_uses": [
+        "Do not infer screen use",
+        "Do not prescribe 10,000-lux therapy or claim blue light is the cause"
+      ],
+      "source": {
+        "source_id": "nih-nhlbi-healthy-sleep-habits",
+        "title": "Sleep Deprivation and Deficiency: Healthy Sleep Habits",
+        "organization": "US National Heart, Lung, and Blood Institute",
+        "year": 2022,
+        "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+        "locator": "Adult guidance on quiet pre-sleep time, bright artificial light, naps, relaxation, activity, and a quiet/cool/dark bedroom",
+        "source_tier": "government_health_guidance"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "conditional-sleep-environment-adjustment",
+      "title": "Sleep environment as a conditional experiment",
+      "claim_summary": "NHLBI healthy-sleep guidance recommends a bedroom that is quiet, cool, and dark.",
+      "evidence_basis": "Supports a reversible reader-self-check environment adjustment when a relevant disturbance applies.",
+      "population": "Adults seeking to improve sleep habits",
+      "applicability": "For a repeated fragmented sleep pattern that remains partly unexplained, may support one explicit if-then trial conditional on a relevant environmental disturbance actually applying.",
+      "limitations": [
+        "The current raw data do not measure the sleep environment",
+        "Generic environment advice should not displace evaluation of persistent sleep difficulty"
+      ],
+      "case_dimensions": [
+        "waso_min",
+        "total_sleep_min"
+      ],
+      "supported_outcome_dimensions": [
+        "waso_min",
+        "total_sleep_min"
+      ],
+      "evidence_level": "guidance",
+      "prohibited_uses": [
+        "Do not invent noise, light, temperature, or comfort problems"
+      ],
+      "source": {
+        "source_id": "nih-nhlbi-healthy-sleep-habits",
+        "title": "Sleep Deprivation and Deficiency: Healthy Sleep Habits",
+        "organization": "US National Heart, Lung, and Blood Institute",
+        "year": 2022,
+        "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+        "locator": "Adult guidance on quiet pre-sleep time, bright artificial light, naps, relaxation, activity, and a quiet/cool/dark bedroom",
+        "source_tier": "government_health_guidance"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "unmeasured-sleep-context-check",
+      "title": "Unmeasured context limits causal interpretation",
+      "claim_summary": "AASM insomnia evaluation guidance uses sleep history, pre-sleep conditions, sleep-wake patterns, daytime consequences, and medical, substance, and psychiatric history to understand persistent sleep difficulty.",
+      "evidence_basis": "Supports stating that unmeasured context limits causal interpretation while prohibiting causal claims from the recorded sleep pattern alone.",
+      "population": "Adults undergoing evaluation for persistent sleep difficulty",
+      "applicability": "Use only to frame uncertainty; this project does not collect a later answer to a follow-up question.",
+      "limitations": [
+        "The source is a clinical evaluation guideline, not evidence that any listed factor is present",
+        "The current raw data do not contain work demands, caregiving, stress, bedroom conditions, naps, screens, caffeine, alcohol, symptoms, or daytime function"
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "waso_min",
+        "sleep_period_start_clock_min",
+        "wake_clock_min"
+      ],
+      "evidence_level": "limitation",
+      "prohibited_uses": [
+        "Do not convert an unmeasured possibility into an observed etiology",
+        "Do not use contributor context as action authorization"
+      ],
+      "source": {
+        "source_id": "aasm-2008-insomnia-evaluation-guideline",
+        "title": "Clinical guideline for the evaluation and management of chronic insomnia in adults",
+        "organization": "American Academy of Sleep Medicine",
+        "year": 2008,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2576317/",
+        "locator": "Summary recommendations on clinical history, two-week sleep logs, medication/substance history, and evaluation",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "sleep-diary-monitoring",
+      "title": "Sleep diary for subjective context and monitoring",
+      "claim_summary": "AASM insomnia evaluation guidance identifies a two-week sleep log and subjective sleep information as useful for characterizing sleep-wake patterns and monitoring treatment.",
+      "evidence_basis": "Supports a diary as complementary monitoring when subjective sleep difficulty needs clarification.",
+      "population": "Adults undergoing clinical evaluation for insomnia symptoms",
+      "applicability": "Monitoring option, not a diagnosis or treatment.",
+      "limitations": [
+        "The guideline addresses clinical evaluation and does not show that every wearable user needs a diary"
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "waso_min",
+        "sleep_period_start_clock_min",
+        "wake_clock_min"
+      ],
+      "evidence_level": "guidance",
+      "prohibited_uses": [
+        "Do not present a diary as treatment",
+        "Do not require obsessive nightly score tracking"
+      ],
+      "source": {
+        "source_id": "aasm-2008-insomnia-evaluation-guideline",
+        "title": "Clinical guideline for the evaluation and management of chronic insomnia in adults",
+        "organization": "American Academy of Sleep Medicine",
+        "year": 2008,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2576317/",
+        "locator": "Summary recommendations on clinical history, two-week sleep logs, medication/substance history, and evaluation",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "stimulus-control-professional-option",
+      "title": "Stimulus control as an insomnia-treatment component",
+      "claim_summary": "The AASM conditionally recommends stimulus control as a single-component treatment for adults with chronic insomnia disorder.",
+      "evidence_basis": "Supports naming stimulus control as a structured professional option, not inferring that a wearable user needs it.",
+      "population": "Adults with chronic insomnia disorder",
+      "applicability": "Professional or explicitly conditional care option after subjective sleep-initiation or sleep-maintenance difficulty is confirmed.",
+      "limitations": [
+        "The source applies to adults with diagnosed or clinically evaluated insomnia, not to diagnosis from wearable data",
+        "A wearable sleep pattern alone cannot establish persistent subjective sleep difficulty or daytime impairment",
+        "Stimulus control may require safety adaptation for falls, mobility limitations, or sedative use"
+      ],
+      "case_dimensions": [
+        "waso_min",
+        "sleep_efficiency_pct"
+      ],
+      "supported_outcome_dimensions": [
+        "waso_min",
+        "sleep_efficiency_pct"
+      ],
+      "evidence_level": "guidance",
+      "prohibited_uses": [
+        "Do not infer insomnia from Fitbit-estimated WASO",
+        "Do not invent a universal 20-minute threshold",
+        "Do not label the recommendation CBT-I"
+      ],
+      "source": {
+        "source_id": "aasm-2021-behavioral-insomnia-guideline",
+        "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline",
+        "organization": "American Academy of Sleep Medicine",
+        "year": 2021,
+        "url": "https://doi.org/10.5664/jcsm.8986",
+        "locator": "Recommendations 1, 3, 4, and 5; intervention descriptions and remarks",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "persistent-sleep-difficulty-evaluation",
+      "title": "Persistent sleep difficulty requires clinical history",
+      "claim_summary": "Insomnia evaluation depends on subjective sleep complaints, daytime consequences, and medical, psychiatric, medication, substance, and sleep history rather than wearable data alone.",
+      "evidence_basis": "Supports suggesting professional evaluation when subjective sleep difficulty persists, without naming a diagnosis.",
+      "population": "Adults with persistent sleep difficulty",
+      "applicability": "Conditional professional-care language only.",
+      "limitations": [
+        "Short sleep or Fitbit-estimated WASO does not establish an insomnia disorder",
+        "The current raw data lack subjective sleep difficulty and daytime impairment"
+      ],
+      "case_dimensions": [
+        "total_sleep_min",
+        "waso_min",
+        "sleep_efficiency_pct"
+      ],
+      "evidence_level": "limitation",
+      "prohibited_uses": [
+        "Do not diagnose insomnia, sleep apnea, or another disorder",
+        "Do not infer symptoms from wearable data"
+      ],
+      "source": {
+        "source_id": "aasm-2008-insomnia-evaluation-guideline",
+        "title": "Clinical guideline for the evaluation and management of chronic insomnia in adults",
+        "organization": "American Academy of Sleep Medicine",
+        "year": 2008,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2576317/",
+        "locator": "Summary recommendations on clinical history, two-week sleep logs, medication/substance history, and evaluation",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "circadian-phase-treatment-boundary",
+      "title": "Circadian phase treatment requires clinical context",
+      "claim_summary": "AASM circadian-rhythm guidance makes treatment recommendations for defined sleep-wake disorders and ties timed light or melatonin to the specific disorder, population, timing, and safety context.",
+      "evidence_basis": "Supports professional evaluation of a persistent schedule mismatch; clock timing alone does not establish chronotype or a circadian disorder.",
+      "population": "People with clinically evaluated intrinsic circadian rhythm sleep-wake disorders",
+      "applicability": "Only when the reader reports persistent mismatch between preferred sleep timing and required schedule, with meaningful symptoms or impairment.",
+      "limitations": [
+        "The current raw data do not contain preferred timing, work obligations, dim-light melatonin onset, symptoms, or impairment",
+        "Evidence and recommended timing vary by circadian disorder and population"
+      ],
+      "case_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min"
+      ],
+      "supported_outcome_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min"
+      ],
+      "evidence_level": "guidance",
+      "prohibited_uses": [
+        "Do not diagnose delayed or advanced sleep-wake phase from wearable clock times",
+        "Do not prescribe a light dose, light timing, or phase-shift schedule"
+      ],
+      "source": {
+        "source_id": "aasm-2015-circadian-rhythm-guideline",
+        "title": "Clinical practice guideline for the treatment of intrinsic circadian rhythm sleep-wake disorders: an update for 2015",
+        "organization": "American Academy of Sleep Medicine",
+        "year": 2015,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4582061/",
+        "locator": "Recommendations and harms sections for timed light and melatonin in specific circadian rhythm sleep-wake disorders",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "clinician-guided-melatonin",
+      "title": "Melatonin timing requires professional guidance",
+      "claim_summary": "AASM circadian-rhythm guidance conditionally supports strategically timed melatonin for selected clinically diagnosed circadian rhythm sleep-wake disorders; benefits, timing, formulation, population, and harms are context dependent.",
+      "evidence_basis": "Supports discussing whether melatonin is appropriate with a qualified clinician, never self-directed dosing from wearable timing.",
+      "population": "Selected patients with clinically diagnosed circadian rhythm sleep-wake disorders",
+      "applicability": "Only as a professional-care option after clinical circadian evaluation.",
+      "limitations": [
+        "The current data cannot identify circadian phase or a circadian disorder",
+        "Product quality, interactions, adverse effects, and long-term evidence require clinical consideration"
+      ],
+      "case_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min"
+      ],
+      "supported_outcome_dimensions": [
+        "sleep_period_start_clock_min",
+        "wake_clock_min",
+        "sleep_period_midpoint_clock_min"
+      ],
+      "evidence_level": "guidance",
+      "prohibited_uses": [
+        "Do not recommend starting melatonin",
+        "Do not provide a dose, clock time, formulation, or duration",
+        "Do not combine it with a light-therapy prescription"
+      ],
+      "source": {
+        "source_id": "aasm-2015-circadian-rhythm-guideline",
+        "title": "Clinical practice guideline for the treatment of intrinsic circadian rhythm sleep-wake disorders: an update for 2015",
+        "organization": "American Academy of Sleep Medicine",
+        "year": 2015,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4582061/",
+        "locator": "Recommendations and harms sections for timed light and melatonin in specific circadian rhythm sleep-wake disorders",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    },
+    {
+      "dossier_id": "sleep-apnea-evaluation-boundary",
+      "title": "Sleep apnea cannot be inferred from this wearable record",
+      "claim_summary": "AASM guidance requires diagnostic testing for obstructive sleep apnea to follow a comprehensive sleep evaluation; polysomnography or an appropriate home sleep apnea test is used when clinical suspicion exists.",
+      "evidence_basis": "Supports referral when relevant symptoms or risk factors are reported and prohibits apnea claims from ordinary sleep summaries.",
+      "population": "Adults with clinical signs or symptoms that raise concern for obstructive sleep apnea",
+      "applicability": "Only after symptoms or risk factors such as habitual snoring, witnessed breathing pauses, gasping, or clinically important daytime sleepiness are reported.",
+      "limitations": [
+        "The current raw data contain no airflow, respiratory effort, oxygen saturation, snoring, witnessed events, or apnea-hypopnea index",
+        "Elevated Fitbit-estimated WASO is not specific for sleep apnea"
+      ],
+      "case_dimensions": [
+        "waso_min",
+        "total_sleep_min"
+      ],
+      "evidence_level": "limitation",
+      "prohibited_uses": [
+        "Do not state or imply suspected sleep apnea without symptoms or risk factors",
+        "Do not interpret consumer sleep stages or awakenings as respiratory events"
+      ],
+      "source": {
+        "source_id": "aasm-2017-osa-diagnostic-testing-guideline",
+        "title": "Clinical practice guideline for diagnostic testing for adult obstructive sleep apnea",
+        "organization": "American Academy of Sleep Medicine",
+        "year": 2017,
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5337595/",
+        "locator": "Good-practice statements: diagnostic testing follows a comprehensive sleep evaluation and PSG is the standard test when OSA is suspected",
+        "source_tier": "professional_guideline_or_scientific_statement"
+      },
+      "runtime_enabled": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "caffeine": {
+    "pattern": "caffeine|coffee|energy drink",
+    "keys": [
+      "caffeine-close-to-sleep-may-disrupt-sleep"
+    ]
+  },
+  "sleep-extension": {
+    "pattern": "more time for sleep|allow(?:ing)? more time|additional time for sleep|more time available for sleep|make more time",
+    "keys": [
+      "allow-more-time-for-sleep"
+    ]
+  },
+  "duration-reference": {
+    "pattern": "(?:7|seven) hours or more|(?:at least|generally need[s]?|usually need[s]?)\\s+(?:about\\s+)?(?:7|seven) hours|individual needs vary",
+    "keys": [
+      "adults-18-to-64-usually-need-at-least-7-hours",
+      "adults-65-plus-usually-need-at-least-7-hours"
+    ]
+  },
+  "waso-reference": {
+    "pattern": "(?:20|30) minutes or less|commonly (?:seen|reported)|generally considered|one general sign of good sleep|can indicate interrupted sleep",
+    "keys": [
+      "waso-quality-reference-for-adults-18-to-64",
+      "waso-quality-reference-for-adults-65-plus"
+    ]
+  },
+  "timing-consistency": {
+    "pattern": "more consistent|similar times|regular (?:sleep )?(?:timing|schedule)|steadier",
+    "keys": [
+      "make-sleep-timing-more-consistent"
+    ]
+  },
+  "evening-light": {
+    "pattern": "bright light|evening light|screen(?:s| use| time)|light late",
+    "keys": [
+      "late-light-or-screen-use-may-delay-sleep"
+    ]
+  },
+  "clinical-context": {
+    "pattern": "clinician|health(?:care| care) (?:professional|provider)|discuss (?:this|these|them) with",
+    "keys": [
+      "persistent-sleep-difficulty-needs-clinical-context",
+      "unwanted-sleep-timing-may-need-clinical-review",
+      "persistent-short-sleep-needs-clinical-context"
+    ]
+  },
+  "circadian-caveat": {
+    "pattern": "circadian|body clock|internal clock",
+    "keys": [
+      "sleep-timing-alone-does-not-confirm-circadian-phase"
+    ]
+  },
+  "daytime-movement": {
+    "pattern": "daytime movement|physical activity|exercise|active minutes",
+    "keys": [
+      "regular-daytime-movement-may-support-sleep-efficiency"
+    ]
+  }
+}

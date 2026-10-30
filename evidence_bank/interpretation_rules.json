@@ -1,0 +1,59 @@
+{
+  "release_id": "interpretation-rules-1.0",
+  "rules": [
+    {
+      "rule_id": "use-the-longitudinal-pattern",
+      "instruction": "Base the interpretation on the pattern across the available record; use the latest night as context rather than allowing it to determine the recommendation by itself.",
+      "scope": "universal",
+      "applies_when_any_metric": [],
+      "source_dossier_ids": [
+        "healthy-sleep-natural-variation"
+      ],
+      "predict_in_E": false
+    },
+    {
+      "rule_id": "distinguish-time-in-bed-from-sleep-duration",
+      "instruction": "Do not use time in bed and sleep duration as interchangeable measures.",
+      "scope": "metric_conditioned",
+      "applies_when_any_metric": ["time_in_bed_min"],
+      "source_dossier_ids": [
+        "time-in-bed-field-semantics",
+        "sleep-efficiency-denominator"
+      ],
+      "predict_in_E": false
+    },
+    {
+      "rule_id": "qualify-device-estimated-waso",
+      "instruction": "When WASO materially affects the reasoning, describe it as time awake after falling asleep. Keep measurement provenance in internal grounding rather than reader-facing text.",
+      "scope": "metric_conditioned",
+      "applies_when_any_metric": ["waso_min"],
+      "source_dossier_ids": [
+        "wake-detection-unreliable"
+      ],
+      "predict_in_E": false
+    },
+    {
+      "rule_id": "qualify-recorded-sleep-stages",
+      "instruction": "Treat recorded sleep stages as approximate descriptions, never diagnoses or behavior targets.",
+      "scope": "metric_conditioned",
+      "applies_when_any_metric": ["deep_sleep_min", "light_sleep_min", "rem_sleep_min", "wake_stage_min"],
+      "source_dossier_ids": [
+        "consumer-stage-accuracy-limit",
+        "stage-bias-is-proportional",
+        "stage-night-to-night-variability"
+      ],
+      "predict_in_E": false
+    },
+    {
+      "rule_id": "do-not-infer-missing-context",
+      "instruction": "Do not infer an unrecorded exposure, symptom, preference, diagnosis, or cause; express an unrecorded exposure only as an explicit if-condition when a selected card permits it.",
+      "scope": "universal",
+      "applies_when_any_metric": [],
+      "source_dossier_ids": [
+        "recorded-sleep-data-cannot-diagnose-disorders",
+        "unmeasured-sleep-context-check"
+      ],
+      "predict_in_E": false
+    }
+  ]
+}
